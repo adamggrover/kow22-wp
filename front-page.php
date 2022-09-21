@@ -109,16 +109,18 @@
             </video>
             <div class="overlay-hero"></div>
         </div>
-        <div class='slide slide-2'>
+        <div class='slide'>
+            <img class="slide slide-img"src="wp-content/themes/kow22/Assets/images/hockey-church.jpg" alt="">
             <div class="overlay-hero"></div>
         </div>
-        <div class='slide slide-3'>
+        <div class='slide'>
+            <img class="slide slide-img"src="wp-content/themes/kow22/Assets/images/boy-on-pc.jpg" alt="">
             <div class="overlay-hero"></div>
         </div>
-        <div class='slide slide-4'>
+        <div class='slide'>
+            <img class="slide slide-img"src="wp-content/themes/kow22/Assets/images/sixth-formers.jpg" alt="">
             <div class="overlay-hero"></div>
         </div>
-
         
     </div>
 
@@ -769,6 +771,7 @@
 
         </div>
     </footer>
+    
 
   
     <?php
