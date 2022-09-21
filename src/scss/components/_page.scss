@@ -1,0 +1,74 @@
+@use 'globals' as g;
+
+#main-page-area{
+    min-height: 80rem;
+    background-color: g.$light;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    max-width: 70rem;
+}
+
+
+.content-header-breadcrumb{
+    display: flex;
+    align-items: center;
+    
+    padding-top: 1rem;
+    
+}
+
+.content-header{
+    margin-bottom: 3rem;
+}
+
+.content-header-breadcrumb-links{
+    color: g.$green; 
+}
+.breadcrumb-spacer{
+    width: 0.5rem;
+}
+
+.content-header-social{
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+
+}
+
+@media screen and (max-width: 992px){
+    .content-header-social{
+        display: flex;
+        justify-content: start;
+        
+  }
+}
+
+#content-h1{
+    color: g.$purple;
+    
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#content-body p:first-child, #content-body p:nth-child(2){
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+
+}
+
+.content-column{
+    padding-bottom: 10rem;
+}
+
+#content-body{
+    margin-top: 2rem;
+    
+
+}
+
+#sidebar-section-nav{
+    background-color: g.$purple;
+    width: 100%;
+    min-height: 40rem;
+}

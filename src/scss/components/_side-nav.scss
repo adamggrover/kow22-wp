@@ -1,0 +1,57 @@
+@use 'globals' as g;
+
+#SideNav{
+    width: 100%;
+    white-space: nowrap;
+     
+  }
+  #SideNav *{
+    
+    color: white;
+
+  }
+  
+  
+  
+  #SideNav .list-group.panel > .list-group-item {
+    border-radius: 0;
+    border: none;
+  }
+  
+  #SideNav .list-group panel > * {
+    
+    
+  }
+
+  #SideNav a.list-group-item{
+    padding: 1rem;
+  }
+  
+  #SideNav a.list-group-item:hover{
+    background-color: g.$dark-purple;
+  }
+  
+  
+  #SideNav .list-group-item{
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0.75rem;
+  }
+  
+  #SideNav .list-group-item:last-child{
+    border-radius: 0;
+  }
+  
+  #SideNav .list-group-item:first-child{
+    border-radius: 0;
+  }
+  
+  #SideNav .list-group-item-success{
+    color: white;
+  }
+  
+  #SideNav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+  }

@@ -1,0 +1,42 @@
+@use 'globals' as g;
+
+#news{
+  background-color: g.$light;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+.card{
+  border-radius: 0;
+  background-color: g.$light;
+  border: white 1rem solid;
+  
+}
+
+.card-top{
+    height: 15rem; 
+    width: 100%;
+    
+}
+
+
+
+.card-img-top{
+  object-fit: cover;
+    object-position: center;
+    border-radius: 0;
+}
+
+.news-row{
+  height: fit-content;
+}
+
+.card-body{
+  min-height: 11rem;
+}
+
+.card-body{
+  pointer-events: none;
+}
+
