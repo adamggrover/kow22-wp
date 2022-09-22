@@ -102,23 +102,23 @@
     <div class='slider'>
 
        
-        <div class="slide slide-1">
-            <video autoplay muted loop class="slide slide-1 hero-video animate__animated animate__fadeIn">
+        <div class="">
+            <video autoplay muted loop class="slide hero-video animate__animated animate__fadeIn">
                 <source src="wp-content/themes/kow22/Assets/video/kowcut-v2.mp4" type="video/mp4">
                 
             </video>
             <div class="overlay-hero"></div>
         </div>
-        <div class='slide'>
-            <img class="slide slide-img"src="wp-content/themes/kow22/Assets/images/hockey-church.jpg" alt="">
+        <div class='slide slide-img'>
+          <img class="slide"src="wp-content/themes/kow22/Assets/images/teacher-and-kids.jpg" alt=""> 
             <div class="overlay-hero"></div>
         </div>
         <div class='slide'>
-            <img class="slide slide-img"src="wp-content/themes/kow22/Assets/images/boy-on-pc.jpg" alt="">
+            <img class="slide"src="wp-content/themes/kow22/Assets/images/boy-on-pc.jpg" alt="">
             <div class="overlay-hero"></div>
         </div>
         <div class='slide'>
-            <img class="slide slide-img"src="wp-content/themes/kow22/Assets/images/sixth-formers.jpg" alt="">
+            <img class="slide"src="wp-content/themes/kow22/Assets/images/sixth-formers.jpg" alt="">
             <div class="overlay-hero"></div>
         </div>
         
@@ -162,6 +162,7 @@
                 </div>
                 
             </div>
+            
             <a id="bell-button" class="bell-button-mobile d-lg-none" href="#announcement-section" >
             <div class="bell-background">                      
                 
@@ -234,7 +235,7 @@
                     <div class="welcome-right-background col-lg-6 pt-5">
                         
                         <div class="welcome-img-container pe-5" data-aos="fade-left" data-aos-delay="600" data-aos-duration='800'>
-                            <img src="wp-content/themes/kow22/Assets/images/teacher-and-kids.jpg" alt="Teacher explaining something to two children" class="img-fluid welcome-img">
+                            <img src="wp-content/themes/kow22/Assets/images/teacher-and-child.jpg" alt="Teacher explaining something to two children" class="img-fluid welcome-img">
                         </div>
                         
         

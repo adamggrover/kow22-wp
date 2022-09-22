@@ -3,20 +3,13 @@
   /*HERO Slider*/
   
   .slide {
-    width:100vw;
-    height:100vh;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
    
-    /*background:#CCC;*/
+ 
     }
     
-    .slider{
-      
-      height: 100vh;
-      width: 100vw;
-      
-      
-      
-    }
 
     .hero-video{
       object-fit: cover;
@@ -35,11 +28,12 @@
    */
     $assetPath :"../../../Assets";
 
-    /*.slide-2 {
+    /*
+  .slide-2 {
     background:url(../../themes/kow22/Assets/images/hockey-church.jpg) center no-repeat;
     background-size:cover;
     }
-    
+      /*
     .slide-3 {
     background:url(../../themes/kow22/Assets/images/3d-printer.jpg) center no-repeat;
     background-size:cover;
@@ -49,11 +43,11 @@
     background-size:cover;
     }
 
-    */
+   
 
     .slide-img{
-      background: center no-repeat;
-      background-size: cover;
+      width: 100%;
+      height: auto;
     }
 
     /* Announcement Slider */
