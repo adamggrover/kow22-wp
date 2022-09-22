@@ -1,5 +1,12 @@
 <?php
 
+function kow22_theme_support(){
+    add_theme_support('title-tag');
+
+}
+
+add_action('after_theme_setup', 'kow22_theme_support');
+
 function kow22_register_styles(){
 
     $version = wp_get_theme() ->get ('Version');
