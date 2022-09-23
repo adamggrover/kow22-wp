@@ -109,15 +109,15 @@ function logoChange(){
 
 // Header change on scroll
 
-var title = document.getElementsByTagName("title")[0].innerHTML;
 
-if ( (title).includes("Homepage")) {
+
+
   window.onscroll = function() {
       
       headerBackground();
       logoChange();
       };
-}
+
 
 
 //Search Bar
