@@ -88,20 +88,20 @@ function headerBackground() {
 //function to change logo size on scroll
 
 function logoChange(){
-    let logo = $("logo"); $(window).scroll(function() {
+    let logo = $(".logo1"); $(window).scroll(function() {
     //let scroll = $(window).scrollTop();
     
 
     
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        if(!logo.hasClass("logo-small")) {
+        if(!logo.hasClass("logo2")) {
           logo.hide();
-          logo.removeClass('logo-big').addClass("logo-small").fadeIn( "slow");
+          logo.removeClass('logo1').addClass("logo2").fadeIn( "slow");
         }
       } else {
-        if(!logo.hasClass("logo-big")) {
+        if(!logo.hasClass("logo1")) {
           logo.hide();
-          logo.removeClass("logo").addClass('logo1').fadeIn( "slow");
+          logo.removeClass("logo2").addClass('logo1').fadeIn( "slow");
         }
       }
     });
