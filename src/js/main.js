@@ -109,7 +109,9 @@ function logoChange(){
 
 // Header change on scroll
 
-if ( document.URL.includes("index") || document.URL.includes("kow22") ) {
+var title = document.getElementsByTagName("title")[0].innerHTML;
+
+if ( (title).includes("Homepage")) {
   window.onscroll = function() {
       
       headerBackground();
