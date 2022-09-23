@@ -4,7 +4,7 @@
         <div class="footer-content container">
             <div class="row footer-logo">
                 <div class="col-sm-4">
-                    <img src="wp-content/themes/kow22/Assets/logos/kings-icon.svg" alt="Kings Academy Icon" class="footer-icon">
+                    <img src="/KOW22-WP/wp-content/themes/kow22/Assets/logos/kings-icon.svg" alt="Kings Academy Icon" class="footer-icon">
                 </div>
 
             </div>
@@ -40,7 +40,7 @@
                         <a href="" class="footer-link">Cookie Usage</a> 
                     </div>
 
-                    <a href="https://wessexlearningtrust.co.uk" target="_blank"><img class="wlt-white mt-5" src="wp-content/themes/kow22/Assets/logos/wlt-white.png" alt=""></a>               
+                    <a href="https://wessexlearningtrust.co.uk" target="_blank"><img class="wlt-white mt-5" src="/KOW22-WP/wp-content/themes/kow22/Assets/logos/wlt-white.png" alt=""></a>               
                 </div>
 
         </div>
