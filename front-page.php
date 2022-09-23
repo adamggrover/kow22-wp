@@ -4,7 +4,7 @@
 
     
 
-<main>
+
     
 <div class="hero-wrapper" id="hero-wrapper">
      <header id="header" class="header1 row container-fluid p-0 m-0 ">
