@@ -46,14 +46,14 @@
     <div class='slider'>
 
        
-        <div class="">
+        <div class="slide">
             <video autoplay muted loop class="slide hero-video animate__animated animate__fadeIn">
                 <source src="wp-content/themes/kow22/Assets/video/kowcut-v2.mp4" type="video/mp4">
                 
             </video>
             <div class="overlay-hero"></div>
         </div>
-        <div class='slide slide-img'>
+        <div class='slide'>
           <img class="slide"src="wp-content/themes/kow22/Assets/images/teacher-and-kids.jpg" alt=""> 
             <div class="overlay-hero"></div>
         </div>
