@@ -25,7 +25,7 @@
             <div class="content-area row">
                 <div class="col-lg-9 content-column">
                     
-                    <h1 id="content-h1">Welcome</h1>
+                    <h1 id="content-h1"><?php the_title(); ?></h1>
 
                     <div id="content-body">
 
