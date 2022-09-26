@@ -1,11 +1,30 @@
 <?php
 
+// Disable ssl verify **REMOVE BEFORE GOING LIVE
+
+add_filter('https_ssl_verify', '__return_false');
+
+//Theme support
+
 function kow22_theme_support(){
     add_theme_support('title-tag');
 
 }
 
 add_action('after_setup_theme', 'kow22_theme_support');
+
+
+function kow22_menus(){
+
+    $locations = array(
+        'primary' => 'Desktop Primary Left'
+        
+    );
+
+    register_nav_menus($locations);
+}
+
+add_action('init', 'kow22_menus');
 
 
 
