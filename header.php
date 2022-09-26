@@ -24,9 +24,17 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
         
-            
+            <?php
+              wp_nav_menu(
+              array(
+                    'menu' => 'primary',
+                    'container_' => '',
+                    'theme_location' => 'primary'
+
+              ));
+              ?>
               
-              <!-- menu links-->
+              <!-- menu links
               <div id="MainMenu">
                 <div class="list-group panel">
                   <a href="#" class="list-group-item list-group-item-success" data-parent="#MainMenu">Home</a>
@@ -54,6 +62,8 @@
                   </div>
                 </div>
               </div>
+
+              -->
             
           
     </div>
