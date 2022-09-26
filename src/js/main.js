@@ -76,14 +76,18 @@ autoplaySpeed: 6000
 
 // When the user scrolls down 50px from the top of the document, change the header's background color from, transparent to dark
 
-
 function headerBackground() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("header").style.backgroundColor = "#231F20";
   } else {
     document.getElementById("header").style.backgroundColor = "transparent";
   }
-}
+
+      }
+
+
+
+
 
 //function to change logo size on scroll
 
@@ -107,15 +111,19 @@ function logoChange(){
     });
 };
 
-// Header change on scroll
+// Check if the header being displayed is the front page version and assign to variable "header"
 
+header = document.getElementById("header").classList.contains("header1");
 
-
+// On scroll run logo change function. Run header change function if on front page
 
   window.onscroll = function() {
       
-      headerBackground();
+     
       logoChange();
+      if (header == true){
+        headerBackground();
+      }
       };
 
 

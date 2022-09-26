@@ -7,6 +7,10 @@ function kow22_theme_support(){
 
 add_action('after_setup_theme', 'kow22_theme_support');
 
+
+
+
+
 function kow22_register_styles(){
 
     $version = wp_get_theme() ->get ('Version');
