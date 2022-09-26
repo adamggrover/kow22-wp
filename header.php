@@ -23,6 +23,14 @@
 
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
+          <?php if ( is_active_sidebar( 'left-sidebar' ) ) : ?>
+            <div id="left-sidebar" class="left-sidebar widget-area" role="complementary">
+              <?php dynamic_sidebar( 'left-sidebar' ); ?>
+            </div><!-- #primary-sidebar -->
+          <?php endif; ?>
+
+          <?php dynamic_sidebar( 'left-sidebar' ); ?>
+
         
             <?php
               wp_nav_menu(
