@@ -176,13 +176,22 @@
 
 }
 
+#sidebar-nav{
+  a.closebtn{
+    color: white;
+
+
+  }
+}
+
+
 .closebtn-box{
   position: absolute;
   top: 0;
   right: 0;
   font-size: 36px;
   margin-left: 50px;
-  background-color: g.$purple;
+  background-color: g.$green;
 
 }
 
