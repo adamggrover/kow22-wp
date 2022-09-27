@@ -31,8 +31,12 @@
 
           <?php dynamic_sidebar( 'left-sidebar' ); ?>
 
+          <?php bellows( 'main' ); ?>
+
         
             <?php
+
+
               wp_nav_menu(
               array(
                     'menu' => 'primary',
