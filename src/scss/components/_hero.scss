@@ -155,24 +155,41 @@
   z-index: 3; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: g.$purple; 
+  background-color: g.$light; 
+  
+  max-width: 90vw;
   
   
   
   box-sizing: border-box;
   overflow-x: hidden; /* Disable horizontal scroll */
   
-  padding-top: 60px; /* Place content 60px from the top */
+  
   transition: 1s; /* 1 second transition effect to slide in the sidenav */
+
+  a{
+    color: g.$dark;
+    &:hover{
+      color: g.$purple;
+    }
+  }
+
+}
+
+.closebtn-box{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 36px;
+  margin-left: 50px;
+  background-color: g.$purple;
 
 }
 
 .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  
+  padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+
 }
 
 
@@ -180,15 +197,13 @@
 /* Navbar */
 
 
-.closebtn{
-  color: white;
-  &:hover{
-    color: g.$green;
-  }
+
+
+
+.primary-menu-container{
+  margin: 5rem 1rem 0 1rem; 
+  
 }
-
-
-
 
 
 
