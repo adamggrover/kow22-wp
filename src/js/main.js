@@ -1,78 +1,79 @@
+
+jQuery(function(){
+
+  $('.slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  fade: true,
+  autoplaySpeed: 5000,
+  speed: 2000,
+  cssEase: 'ease-in-out',
+  dots: false,
+  touchMove: false,
+  arrows:true
+  });
+  
+  
+  
+  $('.news-carousel').slick({
+  
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: false,
+  
+  
+  dots:false,
+  
+  responsive: [{
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1,
+     //centerMode: true,
+  
+    }
+  
+  }, {
+    breakpoint: 800,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      dots: true,
+      infinite: true,
+  
+    }
+  },  {
+    breakpoint: 480,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    }
+  }]
+  });
+  
+  $('.announcement-slider').slick({
+  autoplay: true,
+  arrows: false,
+  autoplaySpeed: 4000
+  
+  });
+  
+  $('.announcement-div-slider').slick({
+  autoplay: true,
+  arrows: false,
+  autoplaySpeed: 6000
+  
+  });
+  
+  
+  });
+  
 AOS.init();
-
-$(document).ready(function(){
-
-$('.slider').slick({
-slidesToShow: 1,
-slidesToScroll: 1,
-autoplay: true,
-fade: true,
-autoplaySpeed: 5000,
-speed: 2000,
-cssEase: 'ease-in-out',
-dots: false,
-touchMove: false,
-arrows:true
-});
-
-
-
-$('.news-carousel').slick({
-
-slidesToShow: 3,
-slidesToScroll: 1,
-autoplay: false,
-
-
-dots:false,
-
-responsive: [{
-  breakpoint: 1024,
-  settings: {
-    slidesToShow: 3,
-    slidesToScroll: 1,
-   //centerMode: true,
-
-  }
-
-}, {
-  breakpoint: 800,
-  settings: {
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    dots: true,
-    infinite: true,
-
-  }
-},  {
-  breakpoint: 480,
-  settings: {
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: true,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
-  }
-}]
-});
-
-$('.announcement-slider').slick({
-autoplay: true,
-arrows: false,
-autoplaySpeed: 4000
-
-});
-
-$('.announcement-div-slider').slick({
-autoplay: true,
-arrows: false,
-autoplaySpeed: 6000
-
-});
-
-
-});
 
 // When the user scrolls down 50px from the top of the document, change the header's background color from, transparent to dark
 
