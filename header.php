@@ -33,18 +33,7 @@
 
           <?php bellows( 'main' ); ?>
 
-        
-            <?php
 
-
-              wp_nav_menu(
-              array(
-                    'menu' => 'primary',
-                    'container_' => '',
-                    'theme_location' => 'primary'
-
-              ));
-              ?>
               
               <!-- menu links
               <div id="MainMenu">
