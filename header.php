@@ -31,7 +31,9 @@
 
           <?php dynamic_sidebar( 'left-sidebar' ); ?>
 
-          <?php bellows( 'main' ); ?>
+          <div class="primary-menu-container">
+            <?php bellows( 'main' ); ?>
+          </div>
 
 
               
