@@ -20,6 +20,7 @@
     
     <!-- menu -->
     <div id="sidebar-nav" class="sidenav">
+      <div class=sidebar-container>
         <div class="closebtn-box">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         </div>
@@ -34,6 +35,8 @@
 
           <div class="primary-menu-container">
             <?php bellows( 'main' ); ?>
+          </div>
+
           </div>
 
 
