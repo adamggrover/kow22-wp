@@ -1,0 +1,5 @@
+@use 'globals' as g;
+
+.file-block{
+    background-color: g.$green;
+}
