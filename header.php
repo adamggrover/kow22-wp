@@ -25,13 +25,7 @@
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         </div>
 
-          <?php if ( is_active_sidebar( 'left-sidebar' ) ) : ?>
-            <div id="left-sidebar" class="left-sidebar widget-area" role="complementary">
-              <?php dynamic_sidebar( 'left-sidebar' ); ?>
-            </div><!-- #primary-sidebar -->
-          <?php endif; ?>
 
-          <?php dynamic_sidebar( 'left-sidebar' ); ?>
 
           <div class="primary-menu-container">
             <?php bellows( 'main' ); ?>
