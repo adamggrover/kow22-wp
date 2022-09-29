@@ -10,7 +10,7 @@ const sass = require('gulp-sass')(require('sass'));
 
 // Sass Task
 function scssTask(){
-    return src('src/scss/style.scss', {sourcemaps : true})
+    return src('src/scss/*.scss', {sourcemaps : true})
     .pipe(sass())
     .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(dest('./', {sourcemaps: '.'}));
