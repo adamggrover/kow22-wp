@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <!--Font Awesome Link-->
+    <script src="https://kit.fontawesome.com/c3ed52941f.js" crossorigin="anonymous"></script>
+   
+   
+    <!--Link to AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link to Slick-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+    <!--Link to style sheet-->
+    <link rel="stylesheet" href="dist/css/styles.css/styles.css">
+    <!-- Link to Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Link to Google Fonts File - Ubuntu and Open Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+
+    <!-- Link to main script file-->
+    <script src="dist/js/main/main.js"></script>
+
+</head>
+
+<body>
+
+        <!-- menu -->
+        <div id="sidebar-nav" class="sidenav">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+            
+                
+                  
+                  <!-- menu links-->
+                  <div id="MainMenu">
+                    <div class="list-group panel">
+                      <a href="#" class="list-group-item list-group-item-success" data-parent="#MainMenu">Home</a>
+                      <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Our Academy<i class="fa fa-caret-down nav-arrow"></i></a>
+                      <div class="collapse" id="demo3">
+                        <a href="#SubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1">Subitem 1 <i class="fa fa-caret-down nav-arrow"></i></a>
+                        <div class="collapse list-group-submenu" id="SubMenu1">
+                          <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 1 a</a>
+                          <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 2 b</a>
+                          <a href="#SubSubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubSubMenu1">Subitem 3 c <i class="fa fa-caret-down nav-arrow"></i></a>
+                          <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1">
+                            <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 1</a>
+                            <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 2</a>
+                          </div>
+                          <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 4 d</a>
+                        </div>
+                        <a href="javascript:;" class="list-group-item">Subitem 2</a>
+                        <a href="javascript:;" class="list-group-item">Subitem 3</a>
+                      </div>
+                      <a href="#demo4" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Item 4  <i class="fa fa-caret-down nav-arrow"></i></a>
+                      <div class="collapse" id="demo4">
+                        <a href="" class="list-group-item">Subitem 1</a>
+                        <a href="" class="list-group-item">Subitem 2</a>
+                        <a href="" class="list-group-item">Subitem 3</a>
+                      </div>
+                    </div>
+                  </div>
+                
+              
+        </div>
+    
+    <!--Header-->
+    <header id="header" class="header2 row container-fluid p-0 m-0 ">
+        <div class="container-fluid" id="header-search-container">
+            <div class="container d-flex align-items-center search-input-box justify-content-between">
+                <div class="search-left">
+                    <i class="fa-solid fa-xl fa-magnifying-glass " id="site-search-icon"></i><input type="search" id="site-search" name="site-search" placeholder="Search the site">
+                </div>
+                <div class="search-right">
+                    <button onclick="closeSearch()">
+                        <i class="fa-solid fa-xmark fa-lg mb-3"></i>                        
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-container" id="header-container">
+            <div class="col-3 hamburger-col pt-0 text-left">
+                <div class="nav-box pt-3">
+                    <button onclick="openNav();"><i class="fa-solid fa-bars fa-xl header-icon hamburger"></i></button> 
+                </div>          
+            </div>
+            
+            <img alt="Kings Academy Logo" id="logo2" class="logo2 col-6 mt-3 mb-1">
+                    
+            <div class="social col-3 pt-4">
+                <a href="https://twitter.com/kowessex" target="_blank" class="social-links"><i class="fa-brands fa-twitter header-icon d-none d-sm-block d-md-block d-lg-block"></i></a>
+                <a href="https://www.facebook.com/kowessex/" target="_blank" class="social-links"><i class="fa-brands fa-facebook-f header-icon d-none d-sm-block d-md-block d-lg-block"></i></a>
+                <button onclick="openSearch()" class="social-links"><i class="fa-solid fa-magnifying-glass header-icon"></i></button>
+            </div>
+        </div>
+    </header>
+   <main>
+
+    
+
+        <div class="container" id="single-post-main-page-area">
+            <div class="content-header row">
+                <div class="content-header-breadcrumb col-lg-6 col-md-12">
+                    <i class="fa-solid fa-house fa-xs"></i><span class="breadcrumb-spacer"></span>
+                    <h6 class="mb-0 content-header-breadcrumb-links">Home / Our Academy / Welcome</h6>
+                    
+
+                </div>
+                <div class="content-header-social col-lg-6 col-md-12">
+                    <h6 class="mb-0 text-muted">Share This Page</h6><span class="breadcrumb-spacer"></span>
+                    <div class="content-area-social-links text-muted">
+                        <i class="fa-brands fa-twitter fa-sm ps-2"></i>
+                        <i class="fa-brands fa-facebook-f fa-sm ps-2"></i>
+                        <i class="fa-solid fa-envelope fa-sm ps-2"></i>
+
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="content-area row">
+                <table id="customers">
+                    <tr>
+                      <th>Company</th>
+                      <th>Contact</th>
+                      <th>Country</th>
+                    </tr>
+                    <tr>
+                      <td>Alfreds Futterkiste</td>
+                      <td>Maria Anders</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Berglunds snabbköp</td>
+                      <td>Christina Berglund</td>
+                      <td>Sweden</td>
+                    </tr>
+                    <tr>
+                      <td>Centro comercial Moctezuma</td>
+                      <td>Francisco Chang</td>
+                      <td>Mexico</td>
+                    </tr>
+                    <tr>
+                      <td>Ernst Handel</td>
+                      <td>Roland Mendel</td>
+                      <td>Austria</td>
+                    </tr>
+                    <tr>
+                      <td>Island Trading</td>
+                      <td>Helen Bennett</td>
+                      <td>UK</td>
+                    </tr>
+                    <tr>
+                      <td>Königlich Essen</td>
+                      <td>Philip Cramer</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Laughing Bacchus Winecellars</td>
+                      <td>Yoshi Tannamuri</td>
+                      <td>Canada</td>
+                    </tr>
+                    <tr>
+                      <td>Magazzini Alimentari Riuniti</td>
+                      <td>Giovanni Rovelli</td>
+                      <td>Italy</td>
+                    </tr>
+                    <tr>
+                      <td>North/South</td>
+                      <td>Simon Crowther</td>
+                      <td>UK</td>
+                    </tr>
+                    <tr>
+                      <td>Paris spécialités</td>
+                      <td>Marie Bertrand</td>
+                      <td>France</td>
+                    </tr>
+                  </table>
+
+            </div>
+        </div>
+       
+
+        
+    
+
+
+
+   </main>
+
+  
+    
+    <!-- FOOTER SECTION-->
+    <footer class="container-fluid">
+        <div class="footer-content container">
+            <div class="row footer-logo">
+                <div class="col-sm-4">
+                    <img src="Assets/logos/kings-icon.svg" alt="Kings Academy Icon" class="footer-icon">
+                </div>
+
+            </div>
+            <div class="row footer-text">
+                <div class="col-sm-4 footer-contact footer-column">
+                    <p>The Kings of Wessex Academy<br>Station Road, Cheddar<br>Somerset BS27 3AQ</p>
+                    <p>Headteacher: Dave Wiltshire</p>
+                    <p><i class="fa-solid fa-phone"></i><span class="footer-spacer"></span>01934742608</p>
+                    <p><a href=""><i class="fa-solid fa-envelope"></i></i><span class="footer-spacer"></span>Email Us</a></p>
+                    <p class="mb-5"><a href=""><i class="fa-solid fa-location-dot"></i></i><span class="footer-spacer"></span>Get Directions</a></p>
+
+                    <div class="footer-social"><a href="https://twitter.com/kowessex" target="_blank" ><i class="fa-brands fa-twitter fa-2xl"></i></a><span class="footer-spacer"></span><span class="footer-spacer"></span><a href="https://www.facebook.com/kowessex/" target="_blank"><i class="fa-brands fa-facebook-f fa-2xl"></i></a></div>
+
+                    <p class="mt-4">A charitable company limited by guarantee<br>
+                        Registered in England<br>
+                        Company Number 7348580</p>
+                    
+                </div>
+                <div class="col-sm-4 footer-links footer-column">
+                    <h4 class="footer heading mb-3">Quick Links</h4>
+                    <a href="" class="footer-link">Download Prospectus</a>
+                    <a href="" class="footer-link">Firefly</a>
+                    
+                </div>
+                
+
+                <div class="col-sm-4 footer-accessability d-flex-column footer-column">
+                    <div class="accesability-top">
+                        <h4 class="footer heading mb-3">Accessability</h4>
+                        <a href="" class="footer-link">Site Map</a>
+                        <a href="" class="footer-link">Terms of Use</a>
+                        <a href="" class="footer-link">Privacy Policy</a> 
+                        <a href="" class="footer-link">Cookie Usage</a> 
+                    </div>
+
+                    <a href="https://wessexlearningtrust.co.uk" target="_blank"><img class="wlt-white mt-5" src="Assets/logos/wlt-white.png" alt=""></a>               
+                </div>
+
+        </div>
+    </footer>
+    <!-- Link to AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS Intialise -->
+    <script>
+        AOS.init();
+      </script>
+
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      <!-- jquery-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
+      <!--Bootstrap-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+</body>
+</html>
