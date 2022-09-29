@@ -99,6 +99,13 @@ add_action('init', function() {
 		'label' => __('kings-file-block', 'txtdomain'),
         'style_handle' => 'kow22-block-styles'
 	]);
+
+    register_block_style('core/quote', [
+		'name' => 'kings-quote-block',
+		'label' => __('kings-quote-block', 'txtdomain'),
+        'style_handle' => 'kow22-block-styles'
+	]);
+
 });
 
 ?>
