@@ -6,6 +6,8 @@ p{
     font-family: 'Open Sans', sans-serif; 
 }
 
+
+
 .section-title{
     color: c.$purple;
     font-weight: bold;
@@ -50,4 +52,13 @@ p{
 
 .calendar-time{
     color: c.$muted;
+}
+
+//Content page
+.content-column{
+
+    h1, h2, h3, h4, h5, h6{
+        color: c.$purple;
+    }
+
 }
