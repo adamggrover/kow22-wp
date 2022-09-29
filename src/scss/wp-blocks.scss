@@ -2,8 +2,28 @@
 
 // File Block
 
-.is-style-background-color-green, 
-.editor-styles-wrapper .is-style-background-color-green { 
+.is-style-kings-file-block, 
+.editor-styles-wrapper .is-kings-file-block { 
 	background-color: g.$green-light;
+	padding: 0.8rem;
+	a{
+		color: g.$dark;
+		font-weight: 500;
+		padding-left: 1rem;
+
+		&:hover{
+			color: g.$purple;
+		}
+		
+	}
+	a::before {
+		font: var(--fa-font-solid);
+		content: "\f15b";
+		font-size: 1rem;
+		color: g.$muted;
+		border-bottom: g.$light 1px solid;
+		padding-right: 1rem;
+	}
+	
 }
 
