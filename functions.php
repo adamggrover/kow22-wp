@@ -33,6 +33,7 @@ function kow22_theme_support(){
 
 add_action('after_setup_theme', 'kow22_theme_support');
 
+//Add menu locations
 
 function kow22_menus(){
 
@@ -47,7 +48,7 @@ function kow22_menus(){
 add_action('init', 'kow22_menus');
 
 
-
+//Register Styles
 
 
 function kow22_register_styles(){
@@ -59,13 +60,14 @@ function kow22_register_styles(){
     wp_enqueue_style('kow22-slick1', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css', array(), '1.5.8', 'all');
     wp_enqueue_style('kow22-slick2', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css', array(), '1.5.8', 'all');
     wp_enqueue_style('kow22-animatecss', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css', array(), '1.0', 'all');
+    
 
 }
 
 add_action('wp_enqueue_scripts', 'kow22_register_styles');
 
 
-
+// Register scripts
 
 function kow22_register_scripts(){
 
@@ -85,5 +87,17 @@ wp_enqueue_script('kow22-main', get_template_directory_uri().'/Assets/js/slick.j
 
 add_action('wp_enqueue_scripts', 'kow22_register_scripts');
 
+
+
+// File Block Style Edits
+
+add_action('init', function() {
+    wp_register_style('kow22-block-styles', get_template_directory_uri() . '/wp-blocks.css', false);
+	register_block_style('core/file', [
+		'name' => 'background-color-green',
+		'label' => __('Background color green', 'txtdomain'),
+        'style_handle' => 'kow22-block-styles'
+	]);
+});
 
 ?>
