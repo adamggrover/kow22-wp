@@ -1,4 +1,4 @@
-
+</main>
     <!-- FOOTER SECTION-->
     <footer class="container-fluid">
         <div class="footer-content container">
@@ -14,7 +14,7 @@
                     <p>Headteacher: Dave Wiltshire</p>
                     <p><i class="fa-solid fa-phone"></i><span class="footer-spacer"></span>01934742608</p>
                     <p><a href="mailto:office@kowessex.co.uk"><i class="fa-solid fa-envelope"></i></i><span class="footer-spacer"></span>Email Us</a></p>
-                    <p class="mb-5"><a href="https://goo.gl/maps/dFpSfEyg2MFc1WYd6"><i class="fa-solid fa-location-dot"></i></i><span class="footer-spacer"></span>Get Directions</a></p>
+                    <p class="mb-5"><a href="https://goo.gl/maps/dFpSfEyg2MFc1WYd6" target="_blank" ><i class="fa-solid fa-location-dot"></i></i><span class="footer-spacer"></span>Get Directions</a></p>
 
                     <div class="footer-social"><a href="https://twitter.com/kowessex" target="_blank" ><i class="fa-brands fa-twitter fa-2xl"></i></a><span class="footer-spacer"></span><span class="footer-spacer"></span><a href="https://www.facebook.com/kowessex/" target="_blank"><i class="fa-brands fa-facebook-f fa-2xl"></i></a></div>
 

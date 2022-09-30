@@ -78,5 +78,7 @@
       get_header('default');
     endif;
 
-
+    
 ?>
+
+<main>

@@ -3,7 +3,8 @@
         <div class="container-fluid" id="header-search-container">
             <div class="container d-flex align-items-center search-input-box justify-content-between">
                 <div class="search-left">
-                    <i class="fa-solid fa-xl fa-magnifying-glass " id="site-search-icon"></i><input type="search" id="site-search" name="site-search" placeholder="Search the site">
+                <?php get_search_form(); ?>
+
                 </div>
                 <div class="search-right">
                     <button onclick="closeSearch()">

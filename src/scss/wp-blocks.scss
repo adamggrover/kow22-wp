@@ -6,7 +6,7 @@
 .editor-styles-wrapper .is-kings-file-block { 
 	background-color: g.$green-light;
 	padding: 1rem;
-	margin-bottom: 4px;
+	margin-bottom: 3px;
 	a{
 		color: g.$dark;
 		font-weight: 500;
@@ -51,4 +51,26 @@
 	
 }
 
+// Search Edit
 
+.custom #my-search { float:right; width:306px; }
+
+.custom form.search_form_visible { width: 306px; }
+
+.custom form.search_form_visible #s {
+    background:#fff;
+    border: 1px solid #000;
+    font-size:12px;
+    margin:0 6px 0 0;
+    padding:4px;
+    width:215px;
+	float:left;
+}
+
+.custom #my-search input#searchsubmit.my-search {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    padding: 4px;
+}

@@ -28,6 +28,7 @@ add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 function kow22_theme_support(){
     add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
 
 }
 
@@ -108,4 +109,20 @@ add_action('init', function() {
 
 });
 
-?>
+// Search box
+
+
+function custom_search_form( $form ) {
+    $form = '
+    <form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
+      <div class="custom-form"><label class="screen-reader-text" for="s">' . __( 'Search:' ) . '</label>
+      <i class="fa-solid fa-xl fa-magnifying-glass " id="site-search-icon"></i>
+      <input type="text" id= "site-search" placeholder="Search the site" autocomplete="off" value="'  . get_search_query() . '" name="s" id="s" />
+      <input type="submit" id="searchsubmit" value="'. esc_attr__( 'Search' ) .'" />
+    </div>
+    </form>';
+
+    return $form;
+  }
+  add_filter( 'get_search_form', 'custom_search_form', 40 );
+

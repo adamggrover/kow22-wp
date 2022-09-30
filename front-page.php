@@ -3,7 +3,7 @@
 ?>
  
     
-    <main>
+
         
 <!-- New welcome section-->
     <section id="welcome">
@@ -514,7 +514,7 @@
 
 
         </section>
-    </main>
+
 
 
     <?php
