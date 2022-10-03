@@ -19,11 +19,17 @@
 
 .content-header{
     margin-bottom: 3rem;
+    color: g.$muted;
+    a{
+        color: g.$muted;
+    }
+    a:hover{
+        color: g.$green;
+
+    }
 }
 
-.content-header-breadcrumb-links{
-    color: g.$green; 
-}
+
 .breadcrumb-spacer{
     width: 0.5rem;
 }
@@ -68,6 +74,15 @@
 #content-body{
     margin-top: 2rem;
     padding-right: 2rem;
+    a{
+        color: g.$purple;
+    }
+    a:hover{
+        color: g.$green;
+    }
+    a:visited{
+        color: blue;
+    }
     
     
 
