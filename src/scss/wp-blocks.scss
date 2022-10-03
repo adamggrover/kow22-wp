@@ -43,11 +43,16 @@
 .is-style-kings-quote-block, 
 .editor-styles-wrapper .is-kings-quote-block { 
 
+	margin-top: 1.8rem;
+	margin-bottom: 1.8rem;
+	text-align: center;
+	padding-left: 4rem;
+	padding-right: 4rem;
+
 	p{
 		font-family: 'Cormorant', serif;
     	font-weight: 300 !important;
-		margin-top: 1rem;
-		margin-bottom: 1rem;
+		
 		//font-style: italic;
 
 	}
