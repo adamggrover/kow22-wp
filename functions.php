@@ -39,7 +39,9 @@ add_action('after_setup_theme', 'kow22_theme_support');
 function kow22_menus(){
 
     $locations = array(
-        'primary' => 'Desktop Primary Left'
+        'primary' => 'Desktop Primary Left',
+        'quick links' => 'Quick Links',
+        'accessability' => 'Accessability'
         
     );
 
