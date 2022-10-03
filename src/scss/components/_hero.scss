@@ -97,10 +97,14 @@
     }
 
 
-
-    .announcement-content{
-      padding-top: 1.5rem;
+    .title-line{
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
     }
+
+
 
     .bell-background{
       height: 2.5rem;
@@ -209,20 +213,21 @@
 }
 
 .closebtn-box{
+  height: 2.2rem;
+  width: 2.2rem;
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 36px;
+  font-size: 24px;
   margin-left: 50px;
   background-color: g.$green;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 
 }
 
-.closebtn {
-  
-  padding: 0.1rem 0.3rem 0.1rem 0.3rem;
 
-}
 
 
 

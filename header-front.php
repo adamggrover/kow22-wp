@@ -74,9 +74,9 @@
 
             <div class="announcement-wrapper p-2 " id="announcement-wrapper">
                 <div class="announcement-box col-4 d-none d-lg-block">
-                    <div class="title-line d-flex justify-content-between">
+                    <div class="title-line">
                         <h5>Annoucements</h5>
-                        <button onclick="announcementClose()">
+                        <button class="announcement-close-btn" onclick="announcementClose()">
                             <i class="fa-solid fa-xmark"></i>                        
                         </button>
                     </div>
