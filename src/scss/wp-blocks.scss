@@ -3,6 +3,9 @@
 // File Block
 
 .is-style-kings-file-block, 
+.editor-styles-wrapper .is-kings-file-block
+
+.is-style-kings-file-block, 
 .editor-styles-wrapper .is-kings-file-block { 
 	background-color: g.$green-light;
 	padding: 1rem;
@@ -43,6 +46,8 @@
 	p{
 		font-family: 'Cormorant', serif;
     	font-weight: 300 !important;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
 		//font-style: italic;
 
 	}
