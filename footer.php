@@ -12,7 +12,7 @@
                 <div class="col-sm-4 footer-contact footer-column">
                     <p>The Kings of Wessex Academy<br>Station Road, Cheddar<br>Somerset BS27 3AQ</p>
                     <p>Headteacher: Dave Wiltshire</p>
-                    <p><i class="fa-solid fa-phone"></i><span class="footer-spacer"></span>01934742608</p>
+                    <p><i class="fa-solid fa-phone"></i><span class="footer-spacer"></span>01934 742 608</p>
                     <p><a href="mailto:office@kowessex.co.uk"><i class="fa-solid fa-envelope"></i></i><span class="footer-spacer"></span>Email Us</a></p>
                     <p class="mb-5"><a href="https://goo.gl/maps/dFpSfEyg2MFc1WYd6" target="_blank" ><i class="fa-solid fa-location-dot"></i></i><span class="footer-spacer"></span>Get Directions</a></p>
 
