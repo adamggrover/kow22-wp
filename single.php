@@ -36,7 +36,7 @@
 
                     </div>
 
-                    <div id="content-body">
+                    <div class="content-body">
 
 
                         <?php
