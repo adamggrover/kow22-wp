@@ -3,9 +3,6 @@
 // File Block
 
 .is-style-kings-file-block, 
-.editor-styles-wrapper .is-kings-file-block
-
-.is-style-kings-file-block, 
 .editor-styles-wrapper .is-kings-file-block { 
 	background-color: g.$green-light;
 	padding: 1rem;
@@ -15,6 +12,10 @@
 
 	&:hover{
 		background-color: g.$green;
+
+		a:hover{
+			color: white;
+		}
 
 		a::before{
 			color: white;
@@ -40,12 +41,11 @@
 		
 		display: flex;
 		align-items: center;
+
+
 		
-		
-		&:visited{
-			color: g.$muted;
-		}
-		
+
+
 	}
 	a::before {
 		font: var(--fa-font-solid);
