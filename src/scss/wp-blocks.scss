@@ -10,15 +10,40 @@
 	background-color: g.$green-light;
 	padding: 1rem;
 	margin-bottom: 4px;
+
+
+
+	&:hover{
+		background-color: g.$green;
+
+		a::before{
+			color: white;
+		}
+
+		&>*{
+			color: white;
+		}
+
+		
+		
+
+	}
+
+	
+
+
+
+
 	a{
 		color: g.$dark;
 		font-weight: 500;
 		
+		display: flex;
+		align-items: center;
 		
 		
-
-		&:hover{
-			color: g.$purple;
+		&:visited{
+			color: g.$muted;
 		}
 		
 	}
@@ -28,12 +53,12 @@
 		font-size: 1rem;
 		color: g.$muted;
 		padding-right: 1rem;
+
+
 		
 		
 
-		&:hover{
-			color: g.$purple;
-		}
+	
 	}
 	
 }
