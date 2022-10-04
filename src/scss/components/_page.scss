@@ -75,12 +75,13 @@
     margin-top: 2rem;
     padding-right: 2rem;
     a{
+        color: g.$green;
         
         &:hover{
             color: g.$purple;
         }
         &:visited{
-            color: g.$muted;
+            color: rgb(76, 0, 255);
         }
     }
     
