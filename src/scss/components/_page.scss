@@ -11,7 +11,7 @@
 
 .content-header-breadcrumb{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     
     padding-top: 1rem;
     
@@ -20,9 +20,13 @@
 .content-header{
     margin-bottom: 3rem;
     color: g.$muted;
+    font-size: 0.6rem;
+    color: g.$muted-light;
+
     a{
-        color: g.$muted;
+        color: g.$muted-light;
     }
+
     a:hover{
         color: g.$green;
 
@@ -37,6 +41,7 @@
 .content-header-social{
     display: flex;
     justify-content: end;
+    align-items: baseline;
     padding-top: 1rem;
     padding-right: 2rem;
 
