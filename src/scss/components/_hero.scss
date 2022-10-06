@@ -12,7 +12,11 @@
 
     //hero loader
 
-    
+    video.loading {
+      background: g.$light url(Assets/logos/preloader.gif) center center no-repeat;
+    }
+
+/*   
 #preloader {
   width: 100%;
   height: 100%;
@@ -23,9 +27,12 @@
   bottom: 0;
   background-color: transparent;
   /* change if the mask should have another color then white */
-  z-index: 99;
-  /* makes sure it stays on top */
+  //z-index: 99;
+  /* makes sure it stays on top 
 }
+
+*/
+/*
 
 #status {
   width: 200px;
@@ -33,18 +40,18 @@
   position: fixed;
  
   left: 50%;
-  /* centers the loading animation horizontally one the screen */
+  /* centers the loading animation horizontally one the screen 
   top: 50%;
-  /* centers the loading animation vertically one the screen */
+  // centers the loading animation vertically one the screen 
   background-image: url(Assets/logos/preloader.gif);
-  /* path to your loading animation */
+  // path to your loading animation 
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
-  /* is width and height divided by two */
+  /* is width and height divided by two 
 }
-    
-
+ 
+*/
     .hero-video{
       object-fit: cover;
     }

@@ -33,18 +33,20 @@
 
 
 
-  
+  <!--
     
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>  
+
+-->
      
     <div class="slider">
 
 
        
         <div class="slide">
-            <video autoplay muted loop class="slide hero-video animate__animated animate__fadeIn">
+            <video id="hero-video" autoplay muted loop class="slide hero-video animate__animated animate__fadeIn" poster="data:image/gif,AAAA">
                 <source src="wp-content/themes/kow22/Assets/video/kowcut-v2.mp4" type="video/mp4">
                 
             </video>

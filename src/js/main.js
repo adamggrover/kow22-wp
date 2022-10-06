@@ -77,11 +77,21 @@ AOS.init();
 
 // hero loader
 
+$('#hero-video').on('loadstart', function (event) {
+  $(this).addClass('loading');
+});
+$('#hero-video').on('canplay', function (event) {
+  $(this).removeClass('loading');
+  $(this).attr('poster', '');
+});
+
+/*
 $(window).on('load', function() { // makes sure the whole site is loaded 
   $('#status').fadeOut(); // will first fade out the loading animation 
   $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
   $('body').delay(350).css({'overflow':'visible'});
 })
+*/
 
 // When the user scrolls down 50px from the top of the document, change the header's background color from, transparent to dark
 
