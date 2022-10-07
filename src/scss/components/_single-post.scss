@@ -18,10 +18,19 @@
     
 }
 
-#post-image-container{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+#content-subheading{
+    color: g.$purple;  
+    font-weight: 700;  
+
+}
+
+#post-content p:first-child, #post-content p:nth-child(2){
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
     
+    
+
 }
 
 
@@ -29,8 +38,8 @@
 .wp-post-image{
     width: 100%;
     height: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  
+    margin-bottom: 1.5rem;
 }
 
 .content-footer{
