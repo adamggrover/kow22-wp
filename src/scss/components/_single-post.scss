@@ -1,15 +1,16 @@
 @use 'globals' as g;
 
-.post-content-column{
+#post-content-column{
 
     margin-bottom: 10rem;
     
 }
 
 #single-post-main-page-area{
-    min-height: 80rem;
+    
     background-color: g.$light;
     padding-top: 8rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -29,3 +30,44 @@
     object-fit: cover;
     object-position: top;
 }
+
+.wp-post-image{
+    width: 100%;
+    height: auto;
+}
+
+.content-footer{
+    margin-top: 5rem;
+}
+
+.nav-links,
+.posts-navigation .nav-links,
+.post-navigation .nav-links {
+    display: flex;
+}
+ 
+.nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+    flex: 1 0 50%;
+}
+ 
+.nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+    text-align: end;
+    flex: 1 0 50%;
+}
+
+.post-navigation {
+
+    padding:0px;
+    }
+    .nav-previous, .nav-next{
+    padding:10px;
+    font-weight: bold;
+    
+    color: g.$muted-light;
+    }
+
+   

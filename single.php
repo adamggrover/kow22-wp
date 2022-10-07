@@ -24,31 +24,63 @@
                 </div>
 
             <div class="content-area row">
-                <div class="post-content-column col-12">
+                <div id="post-content-column col-12">
                     
                     <h1 id="content-h1">News</h1>
 
-                    <h2 id="content-subheading">EPQ Student Interview</h2>
+                    <h2 id="content-subheading">
+                    <?php
+                        the_title();
+                    ?>
+                    </h2>
 
-                    <div id ="post-image-container">
-                        <img src="Assets/images/art-girls.jpg" alt="" id="post-image">
 
-
-                    </div>
 
                     <div class="content-body">
+
+                     
 
 
                         <?php
                         if (have_posts()):
                         while (have_posts()) : the_post();
+
                             get_template_part('template-parts/content', 'news');
+
+                            
                         endwhile;
                         else:
                         echo '<p>Sorry, no posts matched your criteria.</p>';
                         endif;
                         ?>
-                    </div>
+
+
+
+                     
+
+                        
+
+
+                        </div>
+
+
+                        <div class="content-footer">
+
+                        	
+                        <?php the_post_navigation( array(
+                        'prev_text'  => __( '← Previous' ),
+                        'next_text'  => __( 'Next →' ),
+                        ) );
+                        ?>
+
+
+                 
+
+           
+
+                        </div>
+
+
                 </div>
 
             </div>
