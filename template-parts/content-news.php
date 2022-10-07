@@ -6,7 +6,9 @@
         
     ?>
 </div>
-<?php
+<div id="post-content">
+    <?php
 
-the_content();
-?>
+    the_content();
+    ?>
+</div>
