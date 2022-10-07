@@ -318,7 +318,7 @@
             <div class="container mb-5 ps-5 pe-5">
                 <div class="row mb-5 mt-5 " data-aos="fade-up" data-aos-delay="100">
                 
-            <div class="col-sm-4 p-4">
+                <div class="col-sm-4 p-4">
                     
                     
             
