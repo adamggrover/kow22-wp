@@ -28,11 +28,11 @@
                     
                     <h1 id="content-h1">News</h1>
 
-                    <h2 id="content-subheading">
+                    <h1 id="content-subheading">
                     <?php
                         the_title();
                     ?>
-                    </h2>
+                    </h1>
 
 
 
