@@ -26,14 +26,14 @@
             <div class="content-area row">
                 <div id="post-content-column col-12">
                     
-                    <h1 id="content-h1">News</h1>
+                    <h1 id="content-h1">Announcements</h1>
 
 
 
 
                     <div class="content-body">
 
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                    
 
                      
 
@@ -42,7 +42,7 @@
                         if (have_posts()):
                         while (have_posts()) : the_post();
 
-                            get_template_part('archive', 'news');
+                            get_template_part('archive', 'announcements-layout');
 
                             
                         endwhile;
@@ -58,7 +58,7 @@
                         
 
 
-                        </div>
+                      
 
 
                         <div class="content-footer">
