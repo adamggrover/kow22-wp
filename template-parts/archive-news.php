@@ -5,12 +5,12 @@
 
 
   <div class="col">
-  <a href="https://www.google.com" class="news-card" id="news-card-container">
+  
     <div class="card h-100">
-      <img src="<?php the_post_thumbnail_url(); ?>" class="card-img-top" alt="...">
+      <a href="<?php the_permalink();?>"><img src="<?php the_post_thumbnail_url(); ?>" class="card-img-top" alt="..."></a>
       <div class="card-body" id ="news-card-body1">
-        <h6 class="card-link-text news-tags">TECHNOLOGY, COMPETITIONS</h6>
-        <h5 class="card-link-text news-title"><?php the_title();?></h5>
+        <h6 class=""><?php the_tags('',' | ');?></h6>
+        <a href="<?php the_permalink();?>"><h5 class=""><?php the_title();?></h5></a>
         
         <p class="card-link-text news-date"><small><?php the_date(); ?></small></p>
       </div>
@@ -33,7 +33,7 @@
                         
                 
                     </div>-->
-    </a>
+    
   </div>
 
 
