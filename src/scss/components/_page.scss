@@ -3,6 +3,7 @@
 #main-page-area{
     min-height: 80rem;
     background-color: white;
+    padding-bottom: 12rem;
     
     margin-top: 1rem;
     margin-bottom: 6rem;
@@ -96,9 +97,15 @@
 }
 
 #sidebar-section-nav{
-    margin-top: 5rem;
+    margin-top: -10rem;
     background-color: g.$purple;
     width: 100%;
     min-height: 40rem;
     
+}
+
+div#site-header img{
+    width: 100%;
+    max-height: 800px;
+    object-fit: cover;
 }
