@@ -26,9 +26,23 @@ add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 //Theme support
 
+function themename_custom_header_setup() {
+    $args = array(
+        'default-image'      => '',
+        'default-text-color' => '000',
+        'width'              => 1800,
+        'height'             => 400,
+        'flex-width'         => true,
+        'flex-height'        => true,
+    );
+    add_theme_support( 'custom-header', $args );
+}
+add_action( 'after_setup_theme', 'themename_custom_header_setup' );
+
 function kow22_theme_support(){
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
+    
 
 }
 
