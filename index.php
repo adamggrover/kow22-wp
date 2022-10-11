@@ -2,7 +2,7 @@
     get_header();
 ?>
 
-<div class="container" id="single-post-main-page-area">
+<div class="container" id="blog-archive-main-page-area">
     <div class="content-header row">
                     <div class="content-header-breadcrumb col-lg-6 col-md-12">
                         <i class="fa-solid fa-house fa-xl"></i><span class="breadcrumb-spacer"></span>
