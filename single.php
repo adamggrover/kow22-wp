@@ -45,7 +45,7 @@
                         if (have_posts()):
                         while (have_posts()) : the_post();
 
-                            get_template_part('template-parts/content', 'news');
+                            get_template_part('content', 'news');
 
                             
                         endwhile;
@@ -67,11 +67,7 @@
                         <div class="content-footer">
 
                         	
-                        <?php the_post_navigation( array(
-                        'prev_text'  => __( '← Previous' ),
-                        'next_text'  => __( 'Next →' ),
-                        ) );
-                        ?>
+     
 
 
                  
