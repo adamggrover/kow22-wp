@@ -9,8 +9,9 @@
 
 .card{
   border-radius: 0;
-  background-color: g.$light;
-  border: white 1rem solid;
+  background-color: white;
+  border: g.$light 1rem solid;
+  box-shadow: 5px 10px 18px #888888;
   
 }
 
@@ -43,4 +44,9 @@
 
 #news-card-container{
   position: relative;
+}
+
+.news-date{
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
