@@ -26,7 +26,7 @@
             <div class="content-area row gx-5">
                 <div id="post-content-column col-12">
                     
-                    <h1 id="content-h1">Announcements</h1>
+                    <h1 id="content-h1">Match Reports</h1>
 
 
 
