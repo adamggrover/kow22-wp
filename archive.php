@@ -3,7 +3,7 @@
 ?>
 
 <div class="container" id="blog-archive-main-page-area">
-    <div class="content-header row">
+    <div class="content-header row gx-5">
                     <div class="content-header-breadcrumb col-lg-6 col-md-12">
                         <i class="fa-solid fa-house fa-xl"></i><span class="breadcrumb-spacer"></span>
                         <h6 class="mb-0 content-header-breadcrumb-links"><?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?></h6>
@@ -23,7 +23,7 @@
                     </div>
                 </div>
 
-            <div class="content-area row">
+            <div class="content-area row gx-5">
                 <div id="post-content-column col-12">
                     
                     <h1 id="content-h1">News</h1>

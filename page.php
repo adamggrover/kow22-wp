@@ -1,7 +1,7 @@
 <?php
     get_header();
     ?>
-
+<!--
 <div class="header-image">
 <?php if ( get_header_image() ) : ?>
     <div id="site-header">
@@ -12,9 +12,26 @@
 <?php endif; ?>
 
     </div>
+-->
+<div class="featured-img-header">
+    <?php
+    // Check if this is a post or page, if it has a thumbnail, and if it's a big one
+    if ( is_singular() && current_theme_supports( 'post-thumbnails' ) &&
+    has_post_thumbnail( $post->ID ) &&
+    ( /* $src, $width, $height */ $image = wp_get_attachment_image_src(
+    get_post_thumbnail_id( $post->ID ), 'post-thumbnail' ) ) &&
+    $image[1] >= HEADER_IMAGE_WIDTH ) :
+    // Houston, we have a new header image!
+    echo get_the_post_thumbnail( $post->ID );
+    elseif ( get_header_image() ) : ?>
+    <img src="<?php header_image(); ?>" width="<?php echo
+    HEADER_IMAGE_WIDTH; ?>" height="<?php echo
+    HEADER_IMAGE_HEIGHT; ?>" alt="" />
+    <?php endif; ?>
+</div>
 
 <div class="container" id="main-page-area">
-            <div class="content-header row">
+            <div class="content-header row gx-5">
                 <div class="content-header-breadcrumb col-lg-5 col-md-12">
                     <i class="fa-solid fa-house fa-xl"></i><span class="breadcrumb-spacer"></span>
                     <h6 class="mb-0 content-header-breadcrumb-links"><?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?></h6>
@@ -33,7 +50,7 @@
                     
                 </div>
             </div>
-            <div class="content-area row">
+            <div class="content-area row gx-5">
                 <div class="col-lg-9 content-column">
                     
                     <h1 id="content-h1"><?php the_title(); ?></h1>
