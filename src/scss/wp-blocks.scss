@@ -10,6 +10,10 @@
 	padding: 1rem;
 	margin-bottom: 4px;
 
+	a:visited{
+		color: g.$dark;
+	}
+
 
 
 	&:hover{
@@ -22,6 +26,8 @@
 		a::before{
 			color: white;
 		}
+
+		
 
 		&>*{
 			color: white;
