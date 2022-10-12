@@ -30,8 +30,8 @@ function themename_custom_header_setup() {
     $args = array(
         'default-image'      => '',
         'default-text-color' => '000',
-        'width'              => 1800,
-        'height'             => 400,
+        'width'              => 2000,
+        'height'             => 550,
         'flex-width'         => true,
         'flex-height'        => true,
     );
