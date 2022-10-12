@@ -26,6 +26,8 @@ add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 //Theme support
 
+//custom header
+
 function themename_custom_header_setup() {
     $args = array(
         'default-image'      => '',
@@ -47,6 +49,13 @@ function kow22_theme_support(){
 }
 
 add_action('after_setup_theme', 'kow22_theme_support');
+
+//featured image header
+
+
+define( 'HEADER_IMAGE_WIDTH', apply_filters( 'kow22_header_image_width', 2000 ) );
+define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'kow22_header_image_height', 550 ) );
+
 
 //Add menu locations
 
