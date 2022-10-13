@@ -28,7 +28,7 @@
 
 
           <div class="primary-menu-container">
-            <?php bellows( 'main' ); ?>
+          <?php bellows( 'main' , array( 'menu' => 6 ) ); ?>
           </div>
 
           </div>
