@@ -1,0 +1,10 @@
+@use 'globals' as g;
+
+div.cky-btn-revisit-wrapper.cky-revisit-bottom-left{
+    background-color: g.$purple!important;
+    
+}
+
+div.cky-btn-revisit-wrapper.cky-revisit-bottom-left img{
+    display: none;
+}
