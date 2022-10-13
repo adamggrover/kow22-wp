@@ -201,6 +201,23 @@ function announcementClose() {
 
 //news card section effects
 
+//jquery version
+
+$('.news-card').mouseenter(function() {
+
+  
+    
+  $(this).find('.news-overlay').css('opacity', '1');
+  
+
+});
+
+$('.news-card').mouseleave(function() {
+  
+  $(this).find('.news-overlay').css('opacity', '0');
+  
+});
+
 //news card 1
 
 //mouseOver
@@ -210,6 +227,7 @@ function opacityFunction(){
 
 function zIndexFuction(){
     document.getElementById("news-card-body1").style.zIndex = '1';
+    
 }
 
 /*function linkColorFunction(){
