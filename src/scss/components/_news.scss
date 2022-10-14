@@ -46,6 +46,10 @@
   position: relative;
 }
 
+.news-card-title{
+  color: g.$purple;
+}
+
 .news-date{
   margin-top: 1rem;
   margin-bottom: 0;
@@ -61,3 +65,4 @@
   transition: .5s ease;
   background-color: rgba(192, 214, 48, 0.90);
 }
+
