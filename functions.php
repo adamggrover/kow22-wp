@@ -120,6 +120,7 @@ add_action('wp_enqueue_scripts', 'kow22_register_scripts');
 
 add_action('init', function() {
     wp_register_style('kow22-block-styles', get_template_directory_uri() . '/wp-blocks.css', false);
+    
 	register_block_style('core/file', [
 		'name' => 'kings-file-block',
 		'label' => __('kings-file-block', 'txtdomain'),
@@ -129,6 +130,12 @@ add_action('init', function() {
     register_block_style('core/quote', [
 		'name' => 'kings-quote-block',
 		'label' => __('kings-quote-block', 'txtdomain'),
+        'style_handle' => 'kow22-block-styles'
+	]);
+
+    register_block_style('core/latest-posts', [
+		'name' => 'kings-latest-posts-block',
+		'label' => __('kings-latest-posts-block', 'txtdomain'),
         'style_handle' => 'kow22-block-styles'
 	]);
 

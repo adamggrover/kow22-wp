@@ -226,6 +226,29 @@ $('.news-card').mouseleave(function() {
   
 });
 
+//wp-block version
+
+$('.kings-latest-posts').find('li').mouseenter(function() {
+
+  
+    
+  $(this).css('background-color', '#b3d82b');
+
+  $(this).find('img').css('opacity', '0.2');
+
+});
+
+$('.kings-latest-posts').find('li').mouseleave(function() {
+
+  
+    
+  $(this).css('background-color', 'white');
+
+  $(this).find('img').css('opacity', '1');
+
+});
+
+
 //news card 1
 
 //mouseOver
