@@ -59,7 +59,7 @@ jQuery(function(){
   $('.announcement-slider').slick({
   autoplay: true,
   arrows: false,
-  autoplaySpeed: 4000
+  autoplaySpeed: 6000
   
   });
   
