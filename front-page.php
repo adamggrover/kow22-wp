@@ -371,8 +371,9 @@
 
     </section>
 
+    
 
-        <!--CALENDAR SECTION-->
+        <!--CALENDAR SECTION
         <section id="calendar-section">
 
             <div class="section-headings mb-5 text-center">
@@ -408,7 +409,7 @@
 
         </section>
 
-
+    -->
 
     <?php
     get_footer();
