@@ -112,18 +112,34 @@
       background-color: g.$purple;
       width: 15rem;      
       padding: 1rem;
+      min-height: 13rem;
       display: flex;
       flex-direction: column;
-      
-      text-align: left;
+      justify-content: space-between;
+
       color: white;
-      flex: 1 1 auto;      
+ 
       
        
       
     }
 
+    .announcements-title{
+      margin-bottom: 2rem;
+    }
+    .announcement-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 5rem;
+      flex: 1 0 auto;
+    }
 
+
+    .announcement-link{
+      padding-top: 3rem;
+    }
+    
     .hero-wrapper{
       position: relative;
       height: 100vh;
@@ -143,6 +159,8 @@
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+      flex-grow: 0;
+      height: fit-content;
     }
 
 
