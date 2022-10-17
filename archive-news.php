@@ -4,7 +4,7 @@
 
 
 
-  <div class="col">
+  <div class="col d-flex align-items-stretch">
     
     <div id="#news-card-container">
      

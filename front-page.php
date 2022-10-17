@@ -330,7 +330,7 @@
                     while ($newsPosts->have_posts()) : $newsPosts->the_post(); ?>
 
                     
-                    <div class="col">
+                    <div class="col d-flex align-items-stretch">
     
                     <div id="#news-card-container">
                      
@@ -343,6 +343,7 @@
                         
                         <p class="card-link-text news-card-date"><small><?php the_date(); ?></small></p>
                       </div>
+                      
                       <div class="news-overlay"></div>
                     </div>
                     

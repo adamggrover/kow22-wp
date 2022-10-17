@@ -4,7 +4,7 @@
 
 
 
-  <div class="col">
+  <div class="col d-flex align-items-stretch">
   
   <div class="card h-100">
     <a href="<?php the_permalink();?>"><img src="<?php the_post_thumbnail_url(); ?>" class="card-img-top" alt="..."></a>
