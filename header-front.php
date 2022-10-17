@@ -139,15 +139,33 @@
         <div class="announcement-div-container-box"></div>
         <h2>Announcements</h2>
             <div class="announcement-div-slider animate__animated animate__fadeIn animate__slower animate__delay-1s" id="announcement-slider-div">
-                <div class="announcement-div-content">
-                    <p class="announcement-preview">The school will be closed on April 1st</p>
-                    <a class="announcement-link" href="https://google.com">Read More</a>  
-                </div> 
 
                 <div class="announcement-div-content">
-                    <p class="announcement-preview">Kings is the best!</p>
-                    <a class="announcement-link" href="https://google.com">Read More</a>  
+                    <?php
+            
+
+                    $args = array(  
+                        'post_type' => 'Announcements',
+                        'post_status' => 'publish',
+                        'posts_per_page' => 8, 
+                        'orderby' => 'title', 
+                        'order' => 'ASC', 
+                    );
+
+                    $loop = new WP_Query( $args ); 
+                    
+                    while ( $loop->have_posts() ) : $loop->the_post(); 
+                        print the_title(); 
+                        the_excerpt(); 
+                    endwhile;
+                
+                    wp_reset_postdata(); 
+
+                    ?>
+
                 </div> 
+
+
                     
             </div>
         </div>
