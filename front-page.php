@@ -312,7 +312,7 @@
 
             <div class="section-headings text-center row">
                 <h2 class="mt-5 mb-3 section-title">Latest News</h2>
-                <a href="" class="mb-3 section-link">VIEW ALL NEWS</a>
+                <a href="http://localhost/kow22-wp/news/" class="mb-3 section-link">VIEW ALL NEWS</a>
             </div> 
 
             <div class="container mb-5 ps-5 pe-5">

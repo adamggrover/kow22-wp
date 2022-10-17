@@ -103,7 +103,7 @@
                                 <div class="announcement-content">
 
                                 
-                                <h5><?php the_title(); ?></h5>
+                                <h6><?php the_title(); ?></h6>
 
                                 <p><?php the_date(); ?></p>
                                 
