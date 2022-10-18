@@ -1,6 +1,6 @@
 
      <header id="header" class="header2 row container-fluid p-0 m-0 ">
-        <div class="container-fluid" id="header-search-container">
+        <div class="container" id="header-search-container">
             <div class="container d-flex align-items-center search-input-box justify-content-between">
                 <div class="search-left">
                     
@@ -22,7 +22,7 @@
 
 
 
-        <div class="header-container" id="header-container">
+        <div class="header-container container-fluid" id="header-container">
             <div class="col-3 hamburger-col pt-0 text-left">
                 <div class="nav-box pt-3">
                     <button onclick="openNav();"><i class="fa-solid fa-bars fa-xl header-icon hamburger"></i></button> 

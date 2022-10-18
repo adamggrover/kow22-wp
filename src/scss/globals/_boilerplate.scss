@@ -3,7 +3,11 @@
 html {
     box-sizing: border-box;
     font-size:  100%;
+    overflow-x: hidden;
+    
+    
 }
+
 
 *, 
 *::before, 
@@ -15,6 +19,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;  
+    
 }
 
 

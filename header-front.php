@@ -1,6 +1,6 @@
 <div class="hero-wrapper" id="hero-wrapper">
-     <header id="header" class="header1 row container-fluid p-0 m-0 ">
-        <div class="container-fluid" id="header-search-container">
+     <header id="header" class="header1 row containerp-0 m-0 ">
+        <div class="container" id="header-search-container">
             <div class="container d-flex align-items-center search-input-box justify-content-between">
                 <div class="search-left">
                 <?php get_search_form(); ?>
@@ -17,7 +17,16 @@
         <div class="header-container" id="header-container">
             <div class="col-3 hamburger-col pt-0 text-left">
                 <div class="nav-box pt-3">
+
                     <button onclick="openNav();"><i class="fa-solid fa-bars fa-xl header-icon hamburger"></i></button> 
+
+                    <div class="dropdown">
+                        <button onclick="quickLinksMenuButton()" class="dropbtn">QUICK LINKS<i class="fa-solid fa-angle-down quick-links-arrow"></i></button>
+                        <div id="myDropdown" class="dropdown-content">
+                        <?php wp_nav_menu( array( 'theme_location' => 'quick-links-header' ) ); ?>
+                        </div>
+                    </div>
+
                 </div>          
             </div>
             

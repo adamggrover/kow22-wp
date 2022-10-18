@@ -1,3 +1,4 @@
+//-------------SLICK SLIDER------------------------------------------
 
 jQuery(function(){
 
@@ -75,7 +76,7 @@ jQuery(function(){
   
 AOS.init();
 
-// hero loader
+//----------HERO-----------------------------------------------------------------//
 
 $('#hero-video').on('loadstart', function (event) {
   $(this).addClass('loading');
@@ -108,7 +109,7 @@ function headerBackground() {
 
 
 
-//function to change logo size on scroll
+//function to change header logo size on scroll
 
 function logoChange(){
     let logo = $(".logo1"); $(window).scroll(function() {
@@ -199,10 +200,32 @@ function announcementClose() {
   }
 
 
+  //quicklinks header dropdown menu
+
+    /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function quickLinksMenuButton() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+
 
   
 
-//news card section effects
+//--------------------news card section effects-----------------------------------------------
 
 //jquery version
 

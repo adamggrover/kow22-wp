@@ -1,10 +1,11 @@
 @use 'globals' as g;
 
-.header-container {
+#header-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex: 0 1 auto;    
+    flex: 0 1 auto; 
+    width: 100vw;   
     
 }
 
@@ -15,16 +16,11 @@
     z-index: 1;
     transition: 0.1s;   
     background-color: g.$dark;
+    width: 100vw;
     
 }
 
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex: 0 1 auto;   
 
-}
 
 
 .logo2{

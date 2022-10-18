@@ -25,8 +25,7 @@
                 </div>
                 <div class="col-sm-4 footer-links footer-column">
                     <h4 class="footer heading mb-3">Quick Links</h4>
-                    <a href="" class="footer-link">Download Prospectus</a>
-                    <a href="" class="footer-link">Firefly</a>
+                    <?php wp_nav_menu( array( 'theme_location' => 'quick-links' ) ); ?>
                     
                 </div>
                 
@@ -34,10 +33,7 @@
                 <div class="col-sm-4 footer-accessability d-flex-column footer-column">
                     <div class="accesability-top">
                         <h4 class="footer heading mb-3">Accessability</h4>
-                        <a href="" class="footer-link">Site Map</a>
-                        <a href="" class="footer-link">Terms of Use</a>
-                        <a href="" class="footer-link">Privacy Policy</a> 
-                        <a href="" class="footer-link">Cookie Usage</a> 
+                        <?php wp_nav_menu( array( 'theme_location' => 'accessability' ) ); ?>
                     </div>
 
                     <a href="https://wessexlearningtrust.co.uk" target="_blank"><img class="wlt-white mt-5" src="/KOW22-WP/wp-content/themes/kow22/Assets/logos/wlt-white.png" alt=""></a>               

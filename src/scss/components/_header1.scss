@@ -1,12 +1,17 @@
 
 @use 'globals' as g;
 
+#header{
+    width: 100vw;
+}
+
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex: 0 1 auto;    
+    
     
 }
 
@@ -83,13 +88,15 @@
     display: flex;
     justify-content: flex-start;
     
+
+    
     
 }
 
 /* Header Search */
 
 #header-search-container{
-    width: 100%;
+    width: 100vw;
     background-color: g.$green;
     padding: 0;
 

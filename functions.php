@@ -63,7 +63,8 @@ function kow22_menus(){
 
     $locations = array(
         'primary' => 'Desktop Primary Left',
-        'quick links' => 'Quick Links Footer',
+        'quick-links-footer' => 'Quick Links Footer',
+        'quick-links-header' => 'Quick Links Header',
         'accessability' => 'Accessability Footer'
         
     );
