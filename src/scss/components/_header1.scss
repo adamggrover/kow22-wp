@@ -3,6 +3,8 @@
 
 #header{
     width: 100vw;
+    align-items: center;
+    align-content: center;
 }
 
 
@@ -28,6 +30,7 @@
 .logo1{
   max-width: 18rem;
   align-self: center;
+  margin-top: 0.3rem;
   flex: 1 0 auto;
   justify-self: center;
   content: url(Assets/logos/kings-academy-landscape-logo.svg);
@@ -47,6 +50,10 @@
     
 }
 
+button.hamburger{
+    padding: 0;
+}
+
 
 
 
@@ -61,6 +68,7 @@
 }
 
 .hamburger{
+    
     margin-left: .5rem;
 }
 
@@ -71,12 +79,13 @@
     padding-right: 1.5rem;
     justify-content: flex-end;
     flex: 0 1 auto;
-    align-self: flex-start;
+    align-items: center;
   
 }
 
 .social-links{
     display: flex;
+    padding-top: 0.4rem;
 
 }
 
@@ -87,6 +96,7 @@
 .nav-box{
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
     
 
     
