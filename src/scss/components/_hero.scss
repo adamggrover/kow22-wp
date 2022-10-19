@@ -243,17 +243,14 @@
   a{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
-    font-weight: 500;
+    
     color: g.$purple;
     &:hover{
       color: g.$green;
     } 
   }
 
-  button{
 
-
-  }
 
 }
 
@@ -316,7 +313,7 @@
 
 
 .primary-menu-container{
-  margin: 7rem 0 0 1.2rem; 
+  margin: 7rem 0 0 0; 
   width: 100%;
   position: absolute;
   background-color: transparent;

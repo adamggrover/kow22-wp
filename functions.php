@@ -328,3 +328,16 @@ function custom_search_form( $form ) {
   }
   add_filter( 'get_search_form', 'custom_search_form', 40 );
 
+// Bellows Custom Skin
+
+function my_custom_bellows_style() {
+    $stylesheet_url = get_stylesheet_directory_uri() . 'wlt-bellows-skin.css'; // Make sure this matches your stylesheet's URL
+    wp_enqueue_style( 'custom-bellows-css', $stylesheet_url, array( 'bellows' ), '1.0' );
+}
+add_action( 'wp_enqueue_scripts', 'my_custom_bellows_style' );
+
+function register_custom_bellows_skins(){
+    $base_url_path = get_stylesheet_directory_uri();
+    bellows_register_skin( 'wlt-cusom-skin' , 'Wessex Learning Trust' , $base_url_path.'wlt-bellows-skin.css' );
+}
+add_action( 'init' , 'register_custom_bellows_skins' , 10 );
