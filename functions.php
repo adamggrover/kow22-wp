@@ -9,7 +9,7 @@ add_filter('https_ssl_verify', '__return_false');
  * Register our sidebars and widgetized areas.
  *
  */
-function arphabet_widgets_init() {
+function kow22_widgets_init() {
 
 	register_sidebar( array(
 		'name'          => 'left sidebar',
@@ -20,8 +20,17 @@ function arphabet_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 
+    register_sidebar( array(
+		'name'          => 'sidenav-menu',
+		'id'            => 'sidenav-menu',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
 }
-add_action( 'widgets_init', 'arphabet_widgets_init' );
+add_action( 'widgets_init', 'kow22_widgets_init' );
 
 
 //Theme support
