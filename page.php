@@ -74,6 +74,8 @@
                 <div class="col-lg-3" id="sidebar-section-nav-col">
                     <div id="sidebar-section-nav">
                         <div id="SideNav">
+
+                            <?php bellows( 'main' , array( 'menu' => 6 ) ); ?>
                         	
                     
     
