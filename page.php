@@ -75,7 +75,13 @@
                     <div id="sidebar-section-nav">
                         <div id="SideNav">
 
-                            <?php bellows( 'main' , array( 'menu' => 6 ) ); ?>
+                                <h5 class="sidenav-heading">In This Section</h5>
+
+                                <?php if ( is_active_sidebar( 'sidenav-menu' ) ) : ?>
+                                    <div id="sidenav-menu-bellows" class="sidenav-menu">
+                                    <?php dynamic_sidebar( 'sidenav-menu' ); ?>
+                                    </div>
+                                <?php endif; ?>
                         	
                     
     
