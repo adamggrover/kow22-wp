@@ -63,7 +63,7 @@ add_action('after_setup_theme', 'kow22_theme_support');
 
 
 define( 'HEADER_IMAGE_WIDTH', apply_filters( 'kow22_header_image_width', 2000 ) );
-define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'kow22_header_image_height', 550 ) );
+define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'kow22_header_image_height', 600 ) );
 
 
 //Add menu locations
