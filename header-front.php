@@ -121,7 +121,7 @@
                                 <?php endwhile; ?>
                                 <?php endif; ?>
 
-                            <?php wp_reset_postdata(); ?>
+                            
                            
                             
                             
@@ -146,7 +146,7 @@
             </div>
             </a>
 
-            <a id="bell-button" class="bell-button-desktop d-none d-lg-block" href="https://google.com" >
+            <a id="bell-button" class="bell-button-desktop d-none d-lg-block" href="<?php the_permalink();?>" >
                 <div class="bell-background">                      
                     
                     <i class="fa fa-bell faa-ring animated fa-md ringing-bell"></i>
@@ -154,6 +154,7 @@
             </a>
 
      </div>
+     <?php wp_reset_postdata(); ?>
 
 
 
