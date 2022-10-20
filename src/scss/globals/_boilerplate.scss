@@ -26,7 +26,16 @@ body {
 
 a{
     text-decoration: none;
-    color: c.$green;
+    color: c.$purple;
+    
+
+    &:hover{
+        color: c.$green;
+    }
+
+    &:visited{
+        color: c.$muted-light;
+    }
 }
 
 li{
