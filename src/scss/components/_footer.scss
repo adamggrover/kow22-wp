@@ -44,10 +44,8 @@ footer a:hover{
 }
 
 .wlt-white{
-    position: absolute;
-    bottom: 1rem;
-    left: 0;
-    max-width: 25rem;
+
+    width: 100%;
     height: auto;
     margin-left: -1.3rem;
 
@@ -62,5 +60,7 @@ footer a:hover{
 }
 
 .footer-accessability{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

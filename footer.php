@@ -36,7 +36,7 @@
                         <?php wp_nav_menu( array( 'theme_location' => 'accessability' ) ); ?>
                     </div>
 
-                    <a href="https://wessexlearningtrust.co.uk" target="_blank"><img class="wlt-white mt-5" src="/KOW22-WP/wp-content/themes/kow22/Assets/logos/wlt-white.png" alt=""></a>               
+                    <a href="https://wessexlearningtrust.co.uk" target="_blank"><img class="wlt-white mt-5 mb-2" src="/KOW22-WP/wp-content/themes/kow22/Assets/logos/wlt-white.png" alt=""></a>               
                 </div>
 
         </div>
