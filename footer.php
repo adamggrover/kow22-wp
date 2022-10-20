@@ -3,13 +3,13 @@
     <footer class="container-fluid">
         <div class="footer-content container">
             <div class="row footer-logo">
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <img src="/KOW22-WP/wp-content/themes/kow22/Assets/logos/kings-icon.svg" alt="Kings Academy Icon" class="footer-icon">
                 </div>
 
             </div>
             <div class="row footer-text">
-                <div class="col-sm-4 footer-contact footer-column">
+                <div class="col-md-4 footer-contact footer-column">
                     <p>The Kings of Wessex Academy<br>Station Road, Cheddar<br>Somerset BS27 3AQ</p>
                     <p>Headteacher: Dave Wiltshire</p>
                     <p><i class="fa-solid fa-phone"></i><span class="footer-spacer"></span>01934 742 608</p>
@@ -23,14 +23,14 @@
                         Company Number 7348580</p>
                     
                 </div>
-                <div class="col-sm-4 footer-links footer-column">
+                <div class="col-md-4 footer-links footer-column">
                     <h4 class="footer heading mb-3">Quick Links</h4>
                     <?php wp_nav_menu( array( 'theme_location' => 'quick-links' ) ); ?>
                     
                 </div>
                 
 
-                <div class="col-sm-4 footer-accessability d-flex-column footer-column">
+                <div class="col-md-4 footer-accessability d-flex-column footer-column">
                     <div class="accesability-top">
                         <h4 class="footer heading mb-3">Accessability</h4>
                         <?php wp_nav_menu( array( 'theme_location' => 'accessability' ) ); ?>
