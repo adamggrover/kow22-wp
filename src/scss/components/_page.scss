@@ -40,7 +40,7 @@
 
 
 .breadcrumb-spacer{
-    width: 0.5rem;
+    width: 0.7rem;
 }
 
 .content-header-social{
@@ -48,9 +48,12 @@
     justify-content: end;
     align-items: baseline;
     padding-top: 1rem;
-    
-    
 
+}
+
+.content-area-social-links{
+    display: flex;
+    gap: 0.6rem;
 }
 
 @media screen and (max-width: 992px){
