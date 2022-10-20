@@ -100,17 +100,19 @@
 
 }
 
-#sidebar-section-nav{
+#sidebar-container-nav{
     margin-top: -3rem;
     background-color: g.$purple;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     
-    width: max-content;
+    width: 100%;
     height: fit-content;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 500;
     
-    padding-bottom: 0.5rem;
+    
+    
     
 
     & .sidenav-heading{
@@ -118,11 +120,14 @@
         font-weight: bold;
         padding: 1rem 0 0 1rem;
         margin-bottom: .3rem;
+        color: white;
     }
 
     a{
         padding-right: 2rem;
-        min-width: 350px;
+        
+        
+        
     }
 
 

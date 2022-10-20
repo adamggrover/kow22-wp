@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3" id="sidebar-section-nav-col">
-                    <div id="sidebar-section-nav">
+                    <div id="sidebar-container-nav">
                         <div id="SideNav">
 
                                 <h5 class="sidenav-heading">In This Section</h5>

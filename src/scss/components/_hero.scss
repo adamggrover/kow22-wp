@@ -227,6 +227,7 @@
   top: 0; /* Stay at the top */
   left: 0;
   background-color:g.$light-dark ; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
   
   max-width: 90vw;
@@ -255,6 +256,11 @@
 }
 
 #sidebar-nav{
+
+  .primary-menu-container{
+    color: g.$purple;
+  }
+  
   a.closebtn{
     color: white;
     font-size: 24px;
@@ -287,7 +293,7 @@
   width: 100%;
   
   position: relative;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .closebtn-box{
