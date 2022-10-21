@@ -232,7 +232,7 @@ function announcementClose() {
 $('.news-card').mouseenter(function() {
 
   
-  $(this).find(".card-img-top").css('opacity', '0.4');  
+  $(this).find(".card-img-top").css('opacity', '0.3');  
   $(this).find('.news-overlay').css('opacity', '1');
   $(this).find(".news-card-content").css('zIndex', '2');
   
