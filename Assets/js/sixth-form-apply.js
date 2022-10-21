@@ -1,0 +1,2 @@
+const box=document.getElementById("external-applicants");function handleRadioClick(){document.getElementById("kings-no").checked?box.style.display="block":box.style.display="none"}const radioButtons=document.querySelectorAll('input[name="kings-student"]');radioButtons.forEach((e=>{e.addEventListener("click",handleRadioClick)}));
+//# sourceMappingURL=sixth-form-apply.js.map

@@ -273,5 +273,27 @@ $('.kings-latest-posts').find('li').mouseleave(function() {
 
 
 
+//--------------Sixth form application Form
 
+//gets section of page to be hidden/show
+
+const box = document.getElementById('external-applicants');
+const box2 = document.getElementById('internal-applicants');
+
+function handleRadioClick() {
+  if (document.getElementById('kings-no').checked) {
+    box.style.display = 'flex';
+    box2.style.display = 'none';
+    
+  } else {
+    box.style.display = 'none';
+    box2.style.display = 'flex';
+    
+  }
+}
+
+const radioButtons = document.querySelectorAll('input[name="kings-student"]');
+radioButtons.forEach(radio => {
+  radio.addEventListener('click', handleRadioClick);
+});
 
