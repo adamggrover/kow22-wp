@@ -5,6 +5,7 @@
     width: 100vw;
     align-items: center;
     align-content: center;
+    z-index: 5; 
 }
 
 
@@ -12,7 +13,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex: 0 1 auto;    
+    flex: 0 1 auto;   
+    
     
     
 }
