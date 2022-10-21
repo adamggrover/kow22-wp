@@ -1,8 +1,22 @@
 @use 'globals' as g;
 
-.form-wrapper{
+.form-container{
+    border: 1px g.$muted-light solid;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.form-contents{
     
     display: flex;
     flex-direction: column;
     gap: 0.5rem
+}
+
+.epq-yes, .epq-no, .core-maths-yes, .core-maths-no{
+
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
 }
