@@ -232,9 +232,10 @@ function announcementClose() {
 $('.news-card').mouseenter(function() {
 
   
-    
+  $(this).find(".card-img-top").css('opacity', '0.4');  
   $(this).find('.news-overlay').css('opacity', '1');
-  $(this).find("#news-card-body").css('zIndex', '1');
+  $(this).find(".news-card-content").css('zIndex', '2');
+  
 
 
   
@@ -244,7 +245,8 @@ $('.news-card').mouseenter(function() {
 $('.news-card').mouseleave(function() {
   
   $(this).find('.news-overlay').css('opacity', '0');
-  $(this).find("#news-card-body").css('zIndex', '0');
+  $(this).find(".news-card-content").css('zIndex', '0');
+  $(this).find(".card-img-top").css('opacity', '1');
 
   
 });
