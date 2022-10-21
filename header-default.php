@@ -29,7 +29,7 @@
                 </div>          
             </div>
             
-            <img alt="Kings Academy Logo" class="logo2 col-6">
+            <a href="<?php echo get_home_url(); ?>"><img alt="Kings Academy Logo" class="logo2 col-6"></a>
                     
             <div class="social col-3 pt-4 pe-4">
                 <a href="https://twitter.com/kowessex" target="_blank" class="social-links"><i class="fa-brands fa-twitter header-icon d-none d-sm-block d-md-block d-lg-block"></i></a>
