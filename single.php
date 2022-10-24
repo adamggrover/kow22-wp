@@ -67,7 +67,11 @@
                         <div class="content-footer">
 
                         	
-     
+                        <?php the_post_navigation( array(
+                        'prev_text'  => __( '← Previous' ),
+                        'next_text'  => __( 'Next →' ),
+                        ) );
+                        ?>
 
 
                  
