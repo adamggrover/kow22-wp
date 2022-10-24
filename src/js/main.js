@@ -245,8 +245,8 @@ $('.news-card').mouseenter(function() {
 $('.news-card').mouseleave(function() {
   
   $(this).find('.news-overlay').css('opacity', '0');
-  $(this).find(".news-card-content").css('zIndex', '0');
   $(this).find(".card-img-top").css('opacity', '1');
+  $(this).find(".news-card-content").css('zIndex', '0');
 
   
 });
