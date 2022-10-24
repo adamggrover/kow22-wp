@@ -102,6 +102,19 @@ a .card-body-text{
   min-height: 20rem;
 }
 
+.pagination-container{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+  span{
+    color: g.$muted-light;
+  }
+
+  span, a{
+    padding: 1rem;
+  }
+}
 
 
 

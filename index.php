@@ -64,7 +64,14 @@
                         <div class="content-footer">
 
                         	
-
+                            <div class="pagination-container">	
+                                        
+                                    <?php the_posts_pagination( array(
+                                    'prev_text'  => __( '← Previous' ),
+                                    'next_text'  => __( 'Next →' ),
+                                    ) );
+                                    ?>
+                            </div>
 
 
                  
