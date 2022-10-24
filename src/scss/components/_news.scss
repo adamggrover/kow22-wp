@@ -15,6 +15,7 @@
   background-color: white;
   border: g.$light 1rem solid;
   box-shadow: 5px 10px 18px #888888;
+  min-height: fit-content;
   
 }
 
@@ -46,6 +47,7 @@
 
 #news-card-container{
   position: relative;
+  
 }
 
 .news-card-title{
@@ -94,6 +96,10 @@ a .card-body-text{
       color: g.$muted;
     }
   }
+}
+
+.news-card{
+  min-height: 20rem;
 }
 
 
