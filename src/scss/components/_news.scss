@@ -82,6 +82,20 @@
   height: 100%;
 }
 
+a .card-body-text{
+  color: g.$dark;
+  &:hover{
+    color: g.$dark;
+  }
+  & .news-card-date{
+    font-size: 0.9rem;
+    color: g.$muted;
+    &:hover{
+      color: g.$muted;
+    }
+  }
+}
+
 
 
 
