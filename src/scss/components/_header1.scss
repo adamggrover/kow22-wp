@@ -82,7 +82,9 @@ button.hamburger{
     justify-content: flex-end;
     flex: 0 1 auto;
     align-items: center;
-    text-decoration: none;
+    a{
+        text-decoration: none;
+    }
   
 }
 
