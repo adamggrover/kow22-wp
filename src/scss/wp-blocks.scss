@@ -152,3 +152,31 @@
 	}
 
 }
+
+//Custom button block
+
+.is-style-kings-custom-button, 
+.editor-styles-wrapper .is-kings-custom-button { 
+
+	a{
+		background-color: g.$primary!important;
+		padding: 0.6rem 1.2rem 0.6rem 1.2rem!important;
+		font-weight: 500!important;
+		font-size: 1rem;
+		color: white!important;
+		border-radius: 0.4rem!important;
+		min-width: 3rem;
+		border: g.$primary solid 1px!important;
+		margin-top: 1.3rem;
+		margin-bottom: 1.3rem;
+
+		&:hover{
+			background-color: white!important;
+			border: g.$primary solid 1px!important;
+			color: g.$primary!important;
+
+		}
+	}
+}
+	
+
