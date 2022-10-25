@@ -149,6 +149,12 @@ add_action('init', function() {
         'style_handle' => 'kow22-block-styles'
 	]);
 
+    register_block_style('core/button', [
+		'name' => 'kings-custom-button',
+		'label' => __('kings-custom-button', 'txtdomain'),
+        'style_handle' => 'kow22-block-styles'
+	]);
+
 });
 
 //---------------Custom Post Types
