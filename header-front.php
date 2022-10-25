@@ -81,7 +81,7 @@
             <a class="hero-arrow " href="#welcome"><i class="fa-solid fa-circle-arrow-down fa-2x animate__animated animate__fadeIn animate__delay-2s animate__slower"></i></a>
         </div>
         <div class="hero-banner-text-container">
-            <h4 class="hero-banner-text text-center display-6 text-white animate__animated animate__fadeIn  animate__slower"><span class="hero-banner-text-bold">BELIEVE</span> AND <span class="hero-banner-text-bold">SUCCEED!</span></h4>
+            <h4 class="hero-banner-text text-center display-6 text-white animate__animated animate__fadeInUp  animate__slower animate__delay-1s"><span class="hero-banner-text-bold">BELIEVE</span> AND <span class="hero-banner-text-bold">SUCCEED!</span></h4>
         </div>
     
 
