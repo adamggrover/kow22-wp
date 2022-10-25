@@ -26,6 +26,13 @@
             <div class="col-3 hamburger-col pt-0 text-left">
                 <div class="nav-box pt-4">
                     <button onclick="openNav();"><i class="fa-solid fa-bars fa-xl header-icon hamburger"></i></button> 
+
+                    <div class="dropdown">
+                        <button onclick="quickLinksMenuButton()" class="dropbtn">QUICK LINKS<i class="fa-solid fa-angle-down quick-links-arrow"></i></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <?php wp_nav_menu( array( 'theme_location' => 'quick-links-header' ) ); ?>
+                        </div>
+                    </div>
                 </div>          
             </div>
             
