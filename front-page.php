@@ -308,7 +308,7 @@
 
         <!--NEWS LINKS SECTION-->
 
-        <section id="news">
+        <section id="news container">
 
             <div class="section-headings text-center row">
                 <h2 class="mt-5 mb-3 section-title">Latest News</h2>
