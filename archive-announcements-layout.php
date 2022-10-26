@@ -4,11 +4,11 @@
 
 
 <div class="announcement-post" >
-     <h1 class="announcement-post-title"><?php the_title(); ?></h1>
+     <a href="<?php the_permalink();?>"><h1 class="announcement-post-title"><?php the_title(); ?></h1></a>
         
      <h5 class="card-link-text news-date"><small><?php the_date(); ?></small></h5>
         
-     <p class=""><?php the_content();?></p>
+     <p class="announcement-post-content"><?php the_excerpt();?></p>
       
       
     

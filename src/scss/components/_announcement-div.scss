@@ -1,23 +1,26 @@
 @use 'globals' as g;
 
 #announcement-area{
-    background-color: g.$purple;
-    color: white;
+    
+    
     position: relative;
     padding-bottom: 2rem;
     
 }
+
+.announcement-post-title{
+    color: g.$purple;
+    font-weight: bold;
+}
+
+
 
 .announcement-div-container-box{
     padding-top: 4rem;
 }
 
 
-.announcement-div-content a{
-    color: white;
-    text-decoration: underline;
 
-}
 
 .announcement-div-content{
     padding-top: 1rem;
@@ -27,16 +30,18 @@
 
 div.announcement-post{
     
-    background-color: g.$purple;
+    background-color: white;
+    border: g.$light 1rem solid;
     
     box-shadow: 5px 5px 5px #888888;
     padding: 2rem 2rem 3rem 2rem;
     margin-bottom: 3rem;
-    color: white;
-
-}
-
-.announcement-post-title{
     
-    font-weight: bold;
+    height: fit-content;
+
+    a{
+        text-decoration: none;
+    }
+
 }
+
