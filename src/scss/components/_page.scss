@@ -19,6 +19,10 @@
     align-items: baseline;
     
     padding-top: 1rem;
+
+    a{
+        text-decoration: none;
+    }
     
 }
 
@@ -27,10 +31,11 @@
     color: g.$muted;
     font-size: 0.6rem;
     color: g.$muted-light;
+    
 
     a{
         color: g.$muted-light;
-        text-decoration: none;
+        
     }
 
     a:hover{
