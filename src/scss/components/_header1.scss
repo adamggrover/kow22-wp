@@ -27,14 +27,24 @@
 
 }
 
-
+.logo-col{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-content: center;
+    
+}
 
 .logo1{
   max-width: 18rem;
-  align-self: center;
-  margin-top: 0.3rem;
-  flex: 1 0 auto;
-  justify-self: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  
+  
+  
+  margin-top: 0.5rem;
+  
+  
   content: url(Assets/logos/kings-academy-landscape-logo.svg);
   
   
