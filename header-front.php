@@ -31,8 +31,10 @@
                 </div>          
             </div>
             
-            <a href="<?php echo get_home_url(); ?>"><img alt="Kings Academy Logo" class="logo1 col-6"></a>
-                    
+            <div class="col-6 logo-col">
+                <a href="<?php echo get_home_url(); ?>"><img alt="Kings Academy Logo" class="logo1"></a>
+            </div> 
+
             <div class="social col-3 pt-4 me-5">
                 <a href="https://twitter.com/kowessex" target="_blank" class="social-links"><i class="fa-brands fa-twitter header-icon d-none d-md-block"></i></a>
                 <a href="https://www.facebook.com/kowessex/" target="_blank" class="social-links"><i class="fa-brands fa-facebook-f header-icon d-none d-md-block"></i></a>
