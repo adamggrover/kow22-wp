@@ -15,13 +15,14 @@
         </div>
 
         <div class="header-container" id="header-container">
-            <div class="col-3 hamburger-col pt-0 text-left ps-3">
+            <div class="col-3 hamburger-col pt-0 text-left">
                 <div class="nav-box pt-4">
 
                     <button onclick="openNav();"><i class="fa-solid fa-bars fa-xl header-icon hamburger"></i></button> 
 
                     <div class="dropdown">
-                        <button onclick="quickLinksMenuButton()" class="dropbtn">QUICK LINKS<i class="fa-solid fa-angle-down quick-links-arrow"></i></button>
+                        <button onclick="quickLinksMenuButton()" class="dropbtn d-none d-md-block">QUICK LINKS<span class="quick-links-spacer"></span><i class="fa-solid fa-angle-down quick-links-arrow"></i></button>
+                        <button onclick="quickLinksMenuButton()" class="dropbtn d-md-none"><i class="fa-solid fa-angle-down quick-links-arrow"></i></button>
                         <div id="myDropdown" class="dropdown-content">
                             <?php wp_nav_menu( array( 'theme_location' => 'quick-links-header' ) ); ?>
                         </div>
@@ -32,9 +33,9 @@
             
             <a href="<?php echo get_home_url(); ?>"><img alt="Kings Academy Logo" class="logo1 col-6"></a>
                     
-            <div class="social col-3 pt-4 pe-5">
-                <a href="https://twitter.com/kowessex" target="_blank" class="social-links"><i class="fa-brands fa-twitter header-icon d-none d-sm-block d-md-block d-lg-block"></i></a>
-                <a href="https://www.facebook.com/kowessex/" target="_blank" class="social-links"><i class="fa-brands fa-facebook-f header-icon d-none d-sm-block d-md-block d-lg-block"></i></a>
+            <div class="social col-3 pt-4 me-5">
+                <a href="https://twitter.com/kowessex" target="_blank" class="social-links"><i class="fa-brands fa-twitter header-icon d-none d-md-block"></i></a>
+                <a href="https://www.facebook.com/kowessex/" target="_blank" class="social-links"><i class="fa-brands fa-facebook-f header-icon d-none d-md-block"></i></a>
                 <button onclick="openSearch()" class="social-links"><i class="fa-solid fa-magnifying-glass header-icon"></i></button>
             </div>
         </div>

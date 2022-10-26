@@ -8,6 +8,10 @@
     border: 1px white solid;
     font-weight:lighter;
     margin-top: .4rem;  
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    
     
   }
   
@@ -20,7 +24,7 @@
     
     display: inline-block;
     font-size: 1rem;
-    padding-left: 1.2rem;
+    padding-left: 0.8rem;
     padding-right: 1.2rem;
     white-space: nowrap;
     min-width: fit-content;
@@ -45,7 +49,7 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    top: 3rem;
+    top: 4rem;
     font-size: 0.9rem;
     font-weight: 500;
     background-color: white;
@@ -81,6 +85,11 @@
   .show {display: block;}
 
   .quick-links-arrow{
-    padding-left: 0.5rem;
+    
     pointer-events: none; 
   }
+
+.quick-links-spacer{
+  padding-left: 0.5rem;
+  pointer-events: none; 
+}
