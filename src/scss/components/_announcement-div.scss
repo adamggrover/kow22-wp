@@ -11,6 +11,11 @@
 .announcement-post-title{
     color: g.$purple;
     font-weight: bold;
+
+}
+
+.announcement-post-title-link{
+    text-decoration: none;
 }
 
 
@@ -24,6 +29,7 @@
 
 .announcement-div-content{
     padding-top: 1rem;
+   
 }
 
 //announcement archive
@@ -39,9 +45,7 @@ div.announcement-post{
     
     height: fit-content;
 
-    a{
-        text-decoration: none;
-    }
+   
 
 }
 
