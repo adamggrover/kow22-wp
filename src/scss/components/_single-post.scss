@@ -67,6 +67,10 @@
 
 .post-navigation {
 
+    a{
+        text-decoration: none;
+    }
+
     padding:0px;
     }
     .nav-previous, .nav-next{
@@ -74,6 +78,7 @@
     font-weight: bold;
     
     color: g.$muted-light;
-    }
+}
 
-   
+
+
