@@ -3,6 +3,7 @@
 ?>
 
 <div class="container" id="single-post-main-page-area">
+    
     <div class="content-header row gx-5">
                     <div class="content-header-breadcrumb col-lg-6 col-md-12">
                         <i class="fa-solid fa-house fa-xl"></i><span class="breadcrumb-spacer"></span>
@@ -21,17 +22,17 @@
                         
                         
                     </div>
-                </div>
+    </div>
 
-            <div class="content-area">
-                <div id="post-content-column">
+    <div class="content-area">
+        <div id="job-adverts-content-column">
                     
-                    <h1 id="content-h1">Announcements</h1>
+                <h1 id="content-h1">Job Adverts</h1>
 
 
 
 
-                    <div class="content-body">
+                <div class="content-body">
 
                     
 
@@ -42,7 +43,8 @@
                         if (have_posts()):
                         while (have_posts()) : the_post();
 
-                            get_template_part('archive', 'announcements-layout');
+                            get_template_part('archive', 'jobadverts-layout');
+                            
 
                             
                         endwhile;
@@ -58,32 +60,32 @@
                         
 
 
-                        </div>
+                </div>
 
 
-                        <div class="content-footer">
+                <div class="content-footer">
 
 
-                        <div class="pagination-container">	
-                                    
-                                    <?php the_posts_pagination( array(
-                                    'prev_text'  => __( '← Previous' ),
-                                    'next_text'  => __( 'Next →' ),
-                                    ) );
-                                    ?>
-                        </div>
+                    <div class="pagination-container">	
+                                
+                                <?php the_posts_pagination( array(
+                                'prev_text'  => __( '← Previous' ),
+                                'next_text'  => __( 'Next →' ),
+                                ) );
+                                ?>
+                    </div>
 
                  
 
            
 
-                        </div>
-
-
                 </div>
+                                  
 
-            </div>
         </div>
+
+    </div>
+</div>
        
 
         
