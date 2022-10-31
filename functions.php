@@ -155,6 +155,12 @@ add_action('init', function() {
         'style_handle' => 'kow22-block-styles'
 	]);
 
+    register_block_style('core/paragraph', [
+		'name' => 'kings-custom-external-file-link',
+		'label' => __('kings-custom-external-file-link', 'txtdomain'),
+        'style_handle' => 'kow22-block-styles'
+	]);
+
 });
 
 //---------------Custom Post Types

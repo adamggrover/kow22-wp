@@ -180,3 +180,71 @@
 }
 	
 
+// custom external file link block
+
+.is-style-kings-custom-external-file-link, 
+.editor-styles-wrapper .is-kings-custom-external-file-link { 
+	background-color: g.$green-light;
+	padding: 1rem;
+	margin-bottom: 4px;
+
+	a:visited{
+		color: g.$dark;
+	}
+
+
+
+	&:hover{
+		background-color: g.$green;
+
+		a:hover{
+			color: white;
+		}
+
+		a::before{
+			color: white;
+		}
+
+		
+
+		&>*{
+			color: white;
+		}
+
+		
+		
+
+	}
+
+	
+
+
+
+
+	a{
+		color: g.$dark;
+		font-weight: 500;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+
+
+		
+
+
+	}
+	a::before {
+		font: var(--fa-font-solid);
+		content: "\f15b";
+		font-size: 1rem;
+		color: g.$muted;
+		padding-right: 1rem;
+
+
+		
+		
+
+	
+	}
+	
+}
