@@ -353,3 +353,17 @@ function register_custom_bellows_skins(){
     bellows_register_skin( 'wlt-cusom-skin' , 'Wessex Learning Trust' , $base_url_path.'wlt-bellows-skin.css' );
 }
 add_action( 'init' , 'register_custom_bellows_skins' , 10 );
+
+//Change excerpt Length
+
+/**
+ * Filter the excerpt length to 16 words.
+
+ */
+function kow22_excerpt_length( $length ) {
+    if ( is_admin() ) {
+            return $length;
+    }
+    return 16;
+}
+add_filter( 'excerpt_length', 'kow22_excerpt_length', 999 );
