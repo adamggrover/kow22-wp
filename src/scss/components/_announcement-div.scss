@@ -2,9 +2,17 @@
 
 #announcement-area{
     
-    
+    color: white;
     position: relative;
     padding-bottom: 2rem;
+    background-color: g.$purple;
+
+    a{
+        color: g.$green;
+        &:hover{
+            color: white;
+        }
+    }
     
 }
 
