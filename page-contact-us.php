@@ -32,13 +32,13 @@
 
 <div class="container" id="main-page-area">
             <div class="content-header row gx-5">
-                <div class="content-header-breadcrumb col-lg-5 col-md-12">
+                <div class="content-header-breadcrumb col-lg-6 col-md-12">
                     <i class="fa-solid fa-house fa-xl"></i><span class="breadcrumb-spacer"></span>
                     <h6 class="mb-0 content-header-breadcrumb-links"><small><?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?></small></h6>
                     
 
                 </div>
-                <div class="content-header-social col-lg-4 col-md-12">
+                <div class="content-header-social col-lg-6 col-md-12">
                     <h6 class="mb-0"><small>Share This Page</small></h6><span class="breadcrumb-spacer"></span>
                     <div class="content-area-social-links">
                         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><i class="fa-brands fa-twitter ps-2 fa-xl"></i></a>
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="content-area row gx-5">
-                <div class="col-lg-9 content-column">
+                <div class="col-lg-12 content-column">
                     
                     <h1 id="content-h1"><?php the_title(); ?></h1>
 
@@ -71,24 +71,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-3" id="sidebar-section-nav-col">
-                    <div id="sidebar-container-nav">
-                        <div id="SideNav">
 
-                                <h5 class="sidenav-heading">In This Section</h5>
-
-                                <?php if ( is_active_sidebar( 'sidenav-menu' ) ) : ?>
-                                    
-                                    <div id="sidenav-menu-bellows" class="sidenav-menu">
-                                    <?php dynamic_sidebar( 'sidenav-menu' ); ?>
-                                    </div>
-                                <?php endif; ?>
-                        	
-                    
-    
-                              </div>
-                            </div>
-                          </div>
 
                     </div>
 
