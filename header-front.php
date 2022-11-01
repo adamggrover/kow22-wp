@@ -66,15 +66,15 @@
             <div class="overlay-hero"></div>
         </div>
         <div class="slide">
-          <img class="slide"src="wp-content/themes/kow22/Assets/images/teacher-and-kids.jpg" alt=""> 
+          <img class="slide"src="wp-content/themes/kow22/Assets/images/2000px/teacher-and-kids.jpg" alt=""> 
             <div class="overlay-hero"></div>
         </div>
         <div class="slide">
-            <img class="slide"src="wp-content/themes/kow22/Assets/images/boy-on-pc.jpg" alt="">
+            <img class="slide"src="wp-content/themes/kow22/Assets/images/2000px/boy-on-pc.jpg" alt="">
             <div class="overlay-hero"></div>
         </div>
         <div class="slide">
-            <img class="slide"src="wp-content/themes/kow22/Assets/images/sixth-formers.jpg" alt="">
+            <img class="slide"src="wp-content/themes/kow22/Assets/images/2000px/sixth-formers.jpg" alt="">
             <div class="overlay-hero"></div>
         </div>
         
