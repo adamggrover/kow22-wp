@@ -4,7 +4,7 @@
         <div class="footer-content container">
             <div class="row footer-logo">
                 <div class="col-md-4">
-                    <img src="/KOW22-WP/wp-content/themes/kow22/Assets/logos/kings-icon.svg" alt="Kings Academy Icon" class="footer-icon">
+                    <img src="wp-content/themes/kow22/Assets/logos/kings-icon.svg" alt="Kings Academy Icon" class="footer-icon">
                 </div>
 
             </div>
