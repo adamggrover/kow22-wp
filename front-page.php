@@ -24,7 +24,7 @@
                     </div>   
                     <div class="welcome-right-background col-lg-6 pt-5">
                         
-                        <div class="welcome-img-container pe-5" data-aos="fade-left" data-aos-delay="600" data-aos-duration='800'>
+                        <div class="welcome-img-container" data-aos="fade-left" data-aos-delay="600" data-aos-duration='800'>
                             <img src="wp-content/themes/kow22/Assets/images/900px/teacher-and-child.jpg" alt="Teacher explaining something to two children" class="img-fluid welcome-img">
                         </div>
                         
