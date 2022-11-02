@@ -25,7 +25,7 @@
                     <div class="welcome-right-background col-lg-6 pt-5">
                         
                         <div class="welcome-img-container pe-5" data-aos="fade-left" data-aos-delay="600" data-aos-duration='800'>
-                            <img src="wp-content/themes/kow22/Assets/images/teacher-and-child.jpg" alt="Teacher explaining something to two children" class="img-fluid welcome-img">
+                            <img src="wp-content/themes/kow22/Assets/images/900px/teacher-and-child.jpg" alt="Teacher explaining something to two children" class="img-fluid welcome-img">
                         </div>
                         
         
@@ -62,7 +62,7 @@
             height: 100%;
             width: 100%;"></div>    
             
-            <img src="wp-content/themes/kow22/Assets/images/hockey-church.jpg" alt="Avatar" class="image" style="width: 100%;
+            <img src="wp-content/themes/kow22/Assets/images/600px/hockey-church.jpg" alt="Avatar" class="image" style="width: 100%;
             max-height: 200px;
             object-fit:cover;">
             <div class="text h6" style="  color: white;
@@ -122,7 +122,7 @@
               height: 100%;
               width: 100%;"></div>    
               
-              <img src="wp-content/themes/kow22/Assets/images/microsope.jpg" alt="Avatar" class="image" style="width: 100%;
+              <img src="wp-content/themes/kow22/Assets/images/600px/microsope.jpg" alt="Avatar" class="image" style="width: 100%;
               max-height: 200px;
               object-fit:cover;">
               <div class="text h6" style="  color: white;
@@ -182,7 +182,7 @@
               height: 100%;
               width: 100%;"></div>    
               
-              <img src="wp-content/themes/kow22/Assets/images/violin.jpg" alt="Avatar" class="image" style="width: 100%;
+              <img src="wp-content/themes/kow22/Assets/images/600px/violin.jpg" alt="Avatar" class="image" style="width: 100%;
               max-height: 200px;
               object-fit:cover;">
               <div class="text h6" style="  color: white;
@@ -242,7 +242,7 @@
               height: 100%;
               width: 100%;"></div>    
               
-              <img src="wp-content/themes/kow22/Assets/images/sixth-formers.jpg" alt="Avatar" class="image" style="width: 100%;
+              <img src="wp-content/themes/kow22/Assets/images/600px/sixth-formers.jpg" alt="Avatar" class="image" style="width: 100%;
               max-height: 200px;
               object-fit:cover;">
               <div class="text h6" style="  color: white;
