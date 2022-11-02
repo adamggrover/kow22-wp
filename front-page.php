@@ -43,66 +43,73 @@
 
         <div class="container p-5">
             <div class="row mb-5">
-              
-         <div class="col-sm-3 p-2">
+
+            <div class="col-sm-3 p-2">
                 
                 
           
-          <div class="img-container img-link-1" style="position: relative;
-          width: 100%;" data-aos="fade-up" data-aos-delay="200">
-
-
-            <a href="https://www.google.com">
-            <div class="mask" style="  position: absolute;
-            background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(20, 20, 20, 0.3));
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            width: 100%;"></div>    
-            
-            <img src="wp-content/themes/kow22/Assets/images/600px/hockey-church.jpg" alt="Avatar" class="image" style="width: 100%;
-            max-height: 200px;
-            object-fit:cover;">
-            <div class="text h6" style="  color: white;
-            
-            position: absolute;
-            left: 50%;
-            bottom: 0;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            text-align: center;">Prospectus</div>
-
-            <div class="overlay" 
-            onMouseOver="this.style.opacity='1'"
-            onMouseOut="this.style.opacity='0'"
-            style="  position: absolute;
-            opacity: 0;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            width: 100%;
-            
-            transition: .5s ease;
-            background-color: rgba(192, 214, 48, 0.85);">
-            
-              <div class="text h6" style="  color: white;
+                <div class="img-container img-link-3" style="position: relative;
+                width: 100%;" data-aos="fade-up" data-aos-delay="200">
+      
+      
+                  <a href="<?php
+                            $page_object = get_page_by_path( '/safegaurding' );
+                            $page_id = $page_object->ID;
+                            $permalink = get_permalink( $page_id );
+                            echo $permalink;
+                            ?>">
+                  <div class="mask" style="  position: absolute;
+                  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(20, 20, 20, 0.3));
+                  top: 0;
+                  bottom: 0;
+                  left: 0;
+                  right: 0;
+                  height: 100%;
+                  width: 100%;"></div>    
+                  
+                  <img src="wp-content/themes/kow22/Assets/images/600px/violin.jpg" alt="Avatar" class="image" style="width: 100%;
+                  max-height: 200px;
+                  object-fit:cover;">
+                  <div class="text h6" style="  color: white;
+                  
+                  position: absolute;
+                  left: 50%;
+                  bottom: 0;
+                  -webkit-transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%);
+                  text-align: center;">Safegaurding</div>
+      
+                  <div class="overlay" 
+                  onMouseOver="this.style.opacity='1'"
+                  onMouseOut="this.style.opacity='0'"
+                  style="  position: absolute;
+                  opacity: 0;
+                  top: 0;
+                  bottom: 0;
+                  left: 0;
+                  right: 0;
+                  height: 100%;
+                  width: 100%;
+                  
+                  transition: .5s ease;
+                  background-color: rgba(192, 214, 48, 0.85);">
+                  
+                    <div class="text h6" style="  color: white;
+                    
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    text-align: center;">Safegaurding</div>
+                  </div>
+                </div>
+              </a>
+               </div>
               
-              position: absolute;
-              left: 50%;
-              bottom: 0;
-              -webkit-transform: translate(-50%, -50%);
-              -ms-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
-              text-align: center;">Prospectus</div>
-            </div>
-          </div>
-        </a>
-         </div>
+         
 
          <div class="col-sm-3 p-2">
                 
@@ -112,7 +119,7 @@
             width: 100%;" data-aos="fade-up" data-aos-delay="600">
   
   
-              <a href="https://www.google.com">
+              <a href="https://kow.fireflycloud.net/login/login.aspx?prelogin=https%3a%2f%2fkow.fireflycloud.net%2f" target="_blank">
               <div class="mask" style="  position: absolute;
               background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(20, 20, 20, 0.3));
               top: 0;
@@ -168,23 +175,53 @@
                 
                 
           
-            <div class="img-container img-link-3" style="position: relative;
-            width: 100%;" data-aos="fade-up" data-aos-delay="700">
-  
-  
-              <a href="https://www.google.com">
-              <div class="mask" style="  position: absolute;
-              background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(20, 20, 20, 0.3));
-              top: 0;
-              bottom: 0;
-              left: 0;
-              right: 0;
-              height: 100%;
-              width: 100%;"></div>    
-              
-              <img src="wp-content/themes/kow22/Assets/images/600px/violin.jpg" alt="Avatar" class="image" style="width: 100%;
-              max-height: 200px;
-              object-fit:cover;">
+          <div class="img-container img-link-1" style="position: relative;
+          width: 100%;" data-aos="fade-up" data-aos-delay="700">
+
+
+            <a href="<?php
+                        $page_object = get_page_by_path( '/online-payments' );
+                        $page_id = $page_object->ID;
+                        $permalink = get_permalink( $page_id );
+                        echo $permalink;
+                        ?>">
+            <div class="mask" style="  position: absolute;
+            background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(20, 20, 20, 0.3));
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;"></div>    
+            
+            <img src="wp-content/themes/kow22/Assets/images/600px/hockey-church.jpg" alt="Avatar" class="image" style="width: 100%;
+            max-height: 200px;
+            object-fit:cover;">
+            <div class="text h6" style="  color: white;
+            
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;">Payments</div>
+
+            <div class="overlay" 
+            onMouseOver="this.style.opacity='1'"
+            onMouseOut="this.style.opacity='0'"
+            style="  position: absolute;
+            opacity: 0;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            
+            transition: .5s ease;
+            background-color: rgba(192, 214, 48, 0.85);">
+            
               <div class="text h6" style="  color: white;
               
               position: absolute;
@@ -193,36 +230,12 @@
               -webkit-transform: translate(-50%, -50%);
               -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
-              text-align: center;">Safegaurding</div>
-  
-              <div class="overlay" 
-              onMouseOver="this.style.opacity='1'"
-              onMouseOut="this.style.opacity='0'"
-              style="  position: absolute;
-              opacity: 0;
-              top: 0;
-              bottom: 0;
-              left: 0;
-              right: 0;
-              height: 100%;
-              width: 100%;
-              
-              transition: .5s ease;
-              background-color: rgba(192, 214, 48, 0.85);">
-              
-                <div class="text h6" style="  color: white;
-                
-                position: absolute;
-                left: 50%;
-                bottom: 0;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;">Safegaurding</div>
-              </div>
+              text-align: center;">Payments</div>
             </div>
-          </a>
-           </div>
+          </div>
+        </a>
+         </div>
+           
 
            <div class="col-sm-3 p-2">
                 
@@ -232,7 +245,12 @@
             width: 100%;" data-aos="fade-up" data-aos-delay="800">
   
   
-              <a href="https://www.google.com">
+              <a href="<?php
+                        $page_object = get_page_by_path( '/welcome-to-kings-sixth' );
+                        $page_id = $page_object->ID;
+                        $permalink = get_permalink( $page_id );
+                        echo $permalink;
+                        ?>">
               <div class="mask" style="  position: absolute;
               background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(20, 20, 20, 0.3));
               top: 0;
@@ -253,7 +271,7 @@
               -webkit-transform: translate(-50%, -50%);
               -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
-              text-align: center;">Payments</div>
+              text-align: center;">Kings Sixth</div>
   
               <div class="overlay" 
               onMouseOver="this.style.opacity='1'"
@@ -278,7 +296,7 @@
                 -webkit-transform: translate(-50%, -50%);
                 -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
-                text-align: center;">Payments</div>
+                text-align: center;">Kings Sixth</div>
               </div>
             </div>
           </a>
@@ -312,7 +330,12 @@
 
             <div class="section-headings text-center row">
                 <h2 class="mt-5 mb-3 section-title">Latest News</h2>
-                <a href="http://localhost/kow22-wp/news/" class="mb-3 section-link">VIEW ALL NEWS</a>
+                <a href="<?php
+                        $page_object = get_page_by_path( '/news' );
+                        $page_id = $page_object->ID;
+                        $permalink = get_permalink( $page_id );
+                        echo $permalink;
+                        ?>" class="mb-3 section-link">VIEW ALL NEWS</a>
             </div> 
 
             <div class="container mb-5 ps-5 pe-5">
