@@ -1,6 +1,7 @@
 <div class="hero-wrapper" id="hero-wrapper">
+
      <header id="header" class="header1 row p-0 m-0 ">
-        <div class="container" id="header-search-container">
+        <div  id="header-search-container">
             <div class="container d-flex align-items-center search-input-box justify-content-between">
                 <div class="search-left">
                 <?php get_search_form(); ?>

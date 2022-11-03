@@ -5,18 +5,20 @@
     justify-content: space-between;
     align-items: flex-start;
     flex: 0 1 auto; 
-    width: 100vw;   
+    width: 100%;   
+    max-width: inherit; 
     
 }
 
 .header2 {
-     
+    width: 100%;
+    max-width: inherit; 
     position: sticky;
     top: 0;
     z-index: 1;
     transition: 0.1s;   
     background-color: g.$dark;
-    width: 100vw;
+    
     
 }
 

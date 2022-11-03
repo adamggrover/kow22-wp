@@ -3,7 +3,9 @@
 html {
     box-sizing: border-box;
     font-size:  100%;
-    overflow-x: hidden;
+    width: 100%;
+    
+    
     
     
 }
@@ -13,9 +15,12 @@ html {
 *::before, 
 *::after {
     box-sizing: inherit;
+    border: 1px red solid;
+    
 }
 
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: white;  
