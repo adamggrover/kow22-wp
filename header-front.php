@@ -17,7 +17,7 @@
 
         <div class="header-container" id="header-container">
             
-            <div class="col-3 hamburger-col pt-0 text-left">
+            <div class="col-3 hamburger-col pt-0 text-left p-0">
                 <div class="nav-box pt-4">
 
                     <button onclick="openNav();"><i class="fa-solid fa-bars fa-xl header-icon hamburger"></i></button> 
@@ -37,10 +37,10 @@
                 <a href="<?php echo get_home_url(); ?>"><img alt="Kings Academy Logo" class="logo1"></a>
             </div> 
 
-            <div class="social col-3 pt-4">
+            <div class="social col-3 pt-4 p-0">
                 <a href="https://twitter.com/kowessex" target="_blank" class="social-links"><i class="fa-brands fa-twitter header-icon d-none d-md-block"></i></a>
                 <a href="https://www.facebook.com/kowessex/" target="_blank" class="social-links"><i class="fa-brands fa-facebook-f header-icon d-none d-md-block"></i></a>
-                <button onclick="openSearch()" class="social-links"><i class="fa-solid fa-magnifying-glass header-icon pe-2"></i></button>
+                <button onclick="openSearch()" class="social-links"><i class="fa-solid fa-magnifying-glass header-icon"></i></button>
             </div>
         </div>
     </header>
