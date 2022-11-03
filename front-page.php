@@ -10,7 +10,26 @@
 
         <div class="welcome-background pt-4 pb-4">
 
-            <div class="container">
+
+            <div class="container d-lg-none">
+              <div class="row">
+                <div data-aos="fade-up" data-aos-delay="200" data-aos-duration='800' >
+                          <div>
+                                  <h3 CLASS="h2">WELCOME</h3>
+                              <h4 class="mt-2">TO KINGS OF WESSEX ACADEMY</h4>
+                              <p class="mt-4 mb-4">"We are delighted that you wish to find out about our school – a place that we consider to be a fantastic community to work and to learn. By ensuring your child’s happiness remains our first priority, we know they will go onto achieve their full potential here with us."</p>
+                              <a href="" class="">READ MORE</a>
+                          </div>
+                  </div>   
+
+              </div>
+            </div>
+
+        
+
+            <div class="container d-none d-lg-block">
+
+                
 
                 <div class="row p-5">
 

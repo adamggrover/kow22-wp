@@ -15,9 +15,10 @@
 
 
 
-.content-header-breadcrumb{
+.content-header-breadcrumb-wrapper{
     display: flex;
     align-items: baseline;
+    align-content: baseline;
     
     padding-top: 1rem;
 
@@ -27,11 +28,18 @@
     
 }
 
+.content-header-breadcrumb-links{
+   
+}
+
+
+
 .content-header{
     margin-bottom: 4rem;
     color: g.$muted;
     font-size: 0.6rem;
     color: g.$muted-light;
+    
     
 
     a{
