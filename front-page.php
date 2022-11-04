@@ -38,7 +38,12 @@
                                 <h3 CLASS="h2">WELCOME</h3>
                             <h4 class="mt-2">TO KINGS OF WESSEX ACADEMY</h4>
                             <p class="mt-4 mb-4">"We are delighted that you wish to find out about our school – a place that we consider to be a fantastic community to work and to learn. By ensuring your child’s happiness remains our first priority, we know they will go onto achieve their full potential here with us."</p>
-                            <a href="" class="">READ MORE</a>
+                            <a href="<?php
+                            $page_object = get_page_by_path( '/headteachers-welcome' );
+                            $page_id = $page_object->ID;
+                            $permalink = get_permalink( $page_id );
+                            echo $permalink;
+                            ?>">READ MORE</a>
                         </div>
                     </div>   
                     <div class="welcome-right-background col-lg-6 pt-5">
