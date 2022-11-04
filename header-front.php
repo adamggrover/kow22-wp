@@ -174,41 +174,44 @@
 
 <section id="announcement-section">
 
-    <div class="container-fluid pt-5 ps-5 d-lg-none" id="announcement-area">
-        <div class="announcement-div-container-box"></div>
-        <h2>Announcements</h2>
-            <div class="announcement-div-slider animate__animated animate__fadeIn animate__slower animate__delay-1s" id="announcement-slider-div">
-            <div class="announcement-slider">
+    <div class="container-fluid d-lg-none" id="announcement-area">
+        <div class="announcement-div-container-box row">
+            <div class="announcement-section-container">
+                <h2>Announcements</h2>
+                <div class="announcement-div-slider animate__animated animate__fadeIn animate__slower animate__delay-1s" id="announcement-slider-div">
+                    <div class="announcement-slider">
 
-                <?php $query = new WP_Query( [
-                    'post_type'      => 'announcements',
-                    'nopaging'       => true,
-                    'posts_per_page' => '1',
-                ] ); ?>
+                        <?php $query = new WP_Query( [
+                            'post_type'      => 'announcements',
+                            'nopaging'       => true,
+                            'posts_per_page' => '1',
+                        ] ); ?>
 
 
 
-                <?php if ( $query->have_posts() ) : ?>
-                <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+                        <?php if ( $query->have_posts() ) : ?>
+                        <?php while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <div class="announcement-div-content">
+                            <div class="announcement-div-content">
 
-                    
-                        <h5><?php the_title(); ?></h5>
-                        <h6><?php the_date(); ?></h6>
-                        <p><?php the_excerpt(); ?></p>
-                        
-                        <a class="announcement-link" href="<?php the_permalink();?>">Read More</a>  
-                        </div>   
-                        <?php endwhile; ?>
-                        <?php endif; ?>
+                            
+                                <h5><?php the_title(); ?></h5>
+                                <h6><?php the_date(); ?></h6>
+                                <p><?php the_excerpt(); ?></p>
+                                
+                                <a class="announcement-link" href="<?php the_permalink();?>">Read More</a>  
+                            </div>   
+                                <?php endwhile; ?>
+                                <?php endif; ?>
 
-                        <?php wp_reset_postdata(); ?>
+                                <?php wp_reset_postdata(); ?>
 
                     </div>
 
-             </div>
+                </div>
+            </div>
         </div>
+    </div>
 
 </section>
 
