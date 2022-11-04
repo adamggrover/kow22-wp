@@ -92,7 +92,7 @@
 
     <div class="announcement-component animate__animated animate__fadeInRight animate__delay-2s">       
 
-            <div class="announcement-wrapper p-2 " id="announcement-wrapper">
+            <div class="announcement-wrapper" id="announcement-wrapper">
                 <div class="announcement-box col-4 d-none d-lg-block">
                     <div class="title-line">
                         <h5 class="announcements-title">Annoucements</h5>
