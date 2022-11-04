@@ -41,7 +41,7 @@
                 <a href="<?php echo get_home_url(); ?>"><img alt="Kings Academy Logo" class="logo2 img-fluid"></a>
             </div>
                     
-            <div class="social col-5 pt-1 p-0">
+            <div class="social-col col-5 pt-1 p-0">
                 <a href="https://twitter.com/kowessex" target="_blank" class="social-links"><i class="fa-brands fa-twitter header-icon d-none d-sm-block d-md-block d-lg-block"></i></a>
                 <a href="https://www.facebook.com/kowessex/" target="_blank" class="social-links"><i class="fa-brands fa-facebook-f header-icon d-none d-sm-block d-md-block d-lg-block"></i></a>
                 <button onclick="openSearch()" class="social-links"><i class="fa-solid fa-magnifying-glass header-icon"></i></button>
