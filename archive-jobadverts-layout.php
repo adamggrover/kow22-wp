@@ -6,7 +6,7 @@
 <div class="job-advert-post row p-0" >
 
     <div class="job-advert-left-archive col-sm-4 p-0">
-        <img class="job-adverts-logo img-fluid" src="/KOW22-WP/wp-content/themes/kow22/Assets/logos/kings-icon.svg" alt="">
+        <img class="job-adverts-logo img-fluid" src="../wp-content/themes/kow22/Assets/logos/kings-icon.svg" alt="">
 
     </div>
 
